@@ -1,6 +1,4 @@
-[![N|Solid](https://gru.ifsp.edu.br/images/logos/Guarulhos-02.jpg)](https://gru.ifsp.edu.br/)
-
-<img src="https://gru.ifsp.edu.br/images/logos/Guarulhos-02.jpg" width="400">
+<img src="https://gru.ifsp.edu.br/images/logos/Guarulhos-02.jpg" width="450">
 
 # Pós-Graduação em Gestao de Sistemas da Informação
 
