@@ -1,5 +1,7 @@
 [![N|Solid](https://gru.ifsp.edu.br/images/logos/Guarulhos-02.jpg)](https://gru.ifsp.edu.br/)
 
+<img src="https://gru.ifsp.edu.br/images/logos/Guarulhos-02.jpg" width="400">
+
 # Pós-Graduação em Gestao de Sistemas da Informação
 
 #### MGPG - Métodos e Técnicas em Gestão de Projetos
