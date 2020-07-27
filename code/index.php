@@ -152,7 +152,7 @@
             <!-- ======= Section Cap 2 ======= -->
             <section id="section-cap2">
                 <div class="container" data-aos="fade-up">
-
+                    <?php require_once('chapter2.php') ?>
                 </div>
             </section>
 
