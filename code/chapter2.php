@@ -65,6 +65,6 @@
         
         <p>ENGLADBCFHIJKMOPQRSTUVWXYZ</p>
         
-        A palavra chave não precisa estar no início pode estar em qualquer lugar do alfabeto e apenas o destinatário e o remetente sabem qual é a palavra e a posição dela.
+        <p>A palavra chave não precisa estar no início pode estar em qualquer lugar do alfabeto e apenas o destinatário e o remetente sabem qual é a palavra e a posição dela.</p>
     </div>
 </div>
