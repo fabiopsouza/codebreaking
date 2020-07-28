@@ -1,4 +1,37 @@
-<h2 style="color: #bf3fc8">Anagramas Árabes</h2>
+<!-- Puzzle -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h5>Enigma</h5>
+
+                <p>Decifre o enigma:</p>
+
+                <p>Mensagem Escrita com o alfabeto Hieróglifos:</p>
+                <img src="view/static/images/heliogrado.jpg" alt="Heliogrado" class="img-thumbnail rounded" style="max-width: 500px">
+                <br><br>
+                <p>Traduza a mensagem para o nosso alfabeto:</p>
+
+                <div class="input-group mb-3" style="max-width: 500px">
+                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
+                    </div>
+                </div>
+
+                <img src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 500px">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Content -->
+<div class="row">
+    <div class="col-12">
+        <h2 style="color: #bf3fc8">Anagramas Árabes</h2>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-12 col-md-8">
