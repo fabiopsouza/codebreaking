@@ -145,7 +145,7 @@
             <!-- ======= Section Cap 1 ======= -->
             <section id="section-cap1">
                 <div class="container" data-aos="fade-up">
-                    
+                    <?php require_once('chapter1.php') ?>
                 </div>
             </section>
 
