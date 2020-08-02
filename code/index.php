@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>IFSP | Codebreaking</title>
+        <link href="view/static/images/favicon.png" rel="icon">
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -84,56 +85,50 @@
                             <div class="main-timeline3">
                                 <div class="timeline">
                                     <a href="#section-cap1" class="timeline-content">
-                                        <span class="year">Capítulo 1</span>
+                                        <span class="year d-none d-xl-block">Capítulo 1</span>
+                                        <span class="year d-block d-xl-none">Cap 1</span>
                                         <h3 class="title">Cifras Antigas</h3>
-                                        <p class="description">
-                                            A relatos que descrevem que o surgimento da invenção escrita...
-                                        </p>
+                                        <p class="description">A relatos que descrevem que o surgimento da invenção escrita...</p>
                                     </a>
                                 </div>
                                 <div class="timeline">
                                     <a href="#section-cap2" class="timeline-content">
-                                        <span class="year">Capítulo 2</span>
+                                        <span class="year d-none d-xl-block">Capítulo 2</span>
+                                        <span class="year d-block d-xl-none">Cap 2</span>
                                         <h3 class="title">Anagramas Arabicos</h3>
-                                        <p class="description">
-                                            nagrama é reconstruir um texto a partir de pistas encontradas com a análise...
-                                        </p>
+                                        <p class="description">Anagrama é reconstruir um texto a partir de pistas encontradas com a análise...</p>
                                     </a>
                                 </div>
                                 <div class="timeline">
                                     <a href="#section-cap3" class="timeline-content">
-                                        <span class="year">Capítulo 3</span>
+                                        <span class="year d-none d-xl-block">Capítulo 3</span>
+                                        <span class="year d-block d-xl-none">Cap 3</span>
                                         <h3 class="title">Codificadores Europeus</h3>
-                                        <p class="description">
-                                            A partir do século XVI, os Estados Unidos em guerra recorreram a cifras...
-                                        </p>
+                                        <p class="description">A partir do século XVI, os Estados Unidos em guerra recorreram a cifras...</p>
                                     </a>
                                 </div>
                                 <div class="timeline">
                                     <a href="#section-cap4" class="timeline-content">
-                                        <span class="year">Capítulo 4</span>
+                                        <span class="year d-none d-xl-block">Capítulo 4</span>
+                                        <span class="year d-block d-xl-none">Cap 4</span>
                                         <h3 class="title">Decifrar o Indecifrável</h3>
-                                        <p class="description">
-                                            A expansão das comunicações se deu no século XIX...
-                                        </p>
+                                        <p class="description">A expansão das comunicações se deu no século XIX...</p>
                                     </a>
                                 </div>
                                 <div class="timeline">
                                     <a href="#section-cap5" class="timeline-content">
-                                        <span class="year">Capítulo 5</span>
+                                        <span class="year d-none d-xl-block">Capítulo 5</span>
+                                        <span class="year d-block d-xl-none">Cap 5</span>
                                         <h3 class="title">Sala 40</h3>
-                                        <p class="description">
-                                            Durante a Primeria Guerra Mundial, o rádio assumiu a primazia como meio...
-                                        </p>
+                                        <p class="description">Durante a Primeria Guerra Mundial, o rádio assumiu a primazia como meio...</p>
                                     </a>
                                 </div>
                                 <div class="timeline">
                                     <a href="#section-cap6" class="timeline-content">
-                                        <span class="year">Capítulo 6</span>
+                                        <span class="year d-none d-xl-block">Capítulo 6</span>
+                                        <span class="year d-block d-xl-none">Cap 6</span>
                                         <h3 class="title">O Nascimento da Mecanização</h3>
-                                        <p class="description">
-                                            A mecanização da criptografia começou no século XV com o disco de Alberti...
-                                        </p>
+                                        <p class="description">A mecanização da criptografia começou no século XV com o disco de Alberti...</p>
                                     </a>
                                 </div>
                             </div>
