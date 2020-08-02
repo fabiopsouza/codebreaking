@@ -89,8 +89,8 @@
   });
 
   // Mobile Navigation
-  if ($('.nav-menu').length) {
-    var $mobile_nav = $('.nav-menu').clone().prop({
+  if ($('.nav-menu, .main-timeline3').length) {
+    var $mobile_nav = $('.nav-menu, .main-timeline3').clone().prop({
       class: 'mobile-nav d-lg-none'
     });
     $('body').append($mobile_nav);
