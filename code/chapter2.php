@@ -66,7 +66,7 @@
             <img class="img-fluid img-thumbnail rounded" src="view/static/images/qalqashandi.jpeg" alt="Qalqashandi">
         </div>
 
-        <h5 style="color: #bf3fc8">Qalqashandi</h5>
+        <h5 class="mt-3" style="color: #bf3fc8">Qalqashandi</h5>
 
         <p class="text-justify">Em 1412 o egípcio ahmad al-Qalqashandi terminou o: "alvorada para cegos" incluindo uma seção sobre criptografia, descrevendo 7 tipos de criptografia:</p>
 
