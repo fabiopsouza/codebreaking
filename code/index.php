@@ -40,7 +40,7 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li class="drop-down"><a href="#section-timeline">Capítulos</a>
+                    <li class="drop-down"><a href="#">Capítulos</a>
                         <ul class="scrollable-menu">
                             <li><a href="#section-cap1">Capítulo 1</a></li>
                             <li><a href="#section-cap2">Capítulo 2</a></li>

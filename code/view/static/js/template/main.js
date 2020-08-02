@@ -21,7 +21,7 @@
   if (window.matchMedia("(max-width: 991px)").matches) {
     scrolltoOffset += 20;
   }
-  $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+  $(document).on('click', '.nav-menu a, .main-timeline3 a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
@@ -37,8 +37,8 @@
           scrollTop: scrollto
         }, 1500, 'easeInOutExpo');
 
-        if ($(this).parents('.nav-menu, .mobile-nav').length) {
-          $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+        if ($(this).parents('.nav-menu, .main-timeline3, .mobile-nav').length) {
+          $('.nav-menu .active, .main-timeline3 .active, .mobile-nav .active').removeClass('active');
           $(this).closest('li').addClass('active');
         }
 
