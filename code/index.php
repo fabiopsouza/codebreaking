@@ -152,7 +152,7 @@
             </section>
 
             <!-- ======= Section Cap 2 ======= -->
-            <section id="section-cap2">
+            <section id="section-cap3">
                 <div class="container" data-aos="fade-up">
 
                 </div>
