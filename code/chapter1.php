@@ -41,7 +41,7 @@
     </div>
 
     <div class="col-12 col-md-4">
-        <div class="portfolio-details-container" style="max-width: 300px;">
+        <div class="portfolio-details-container" style="max-width: 100%">
             <div class="owl-carousel portfolio-details-carousel">
                 <img src="view/static/images/pictografia.jpg" class="img-fluid" alt="">
                 <img src="view/static/images/citala.jfif" class="img-fluid" alt="">
@@ -54,10 +54,10 @@
 </div>
 <div class="row">
     <div class="col-12 col-md-7">
-            <img src="view/static/images/alfabeto-grego.jpg"  alt="Alfabeto Grego" class="img-thumbnail rounded mx-auto d-block" style="max-width: 600px; float:left">
+            <img src="view/static/images/alfabeto-grego.jpg"  alt="Alfabeto Grego" class="img-thumbnail rounded mx-auto d-block" style="max-width: 100%; float:left">
     </div>
     <div class="col-12 col-md-5">
-       <iframe width="460" height="300" src="https://www.youtube.com/embed/tUWIpzYaKXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tUWIpzYaKXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 <br/>
