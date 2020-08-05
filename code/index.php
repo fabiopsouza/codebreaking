@@ -151,15 +151,8 @@
                 </div>
             </section>
 
-            <!-- ======= Section Cap 2 ======= -->
-            <section id="section-cap3">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
             <!-- ======= Section Cap 3 ======= -->
-            <section id="section-cap4">
+            <section id="section-cap3">
                 <div class="container" data-aos="fade-up">
 
                 </div>
@@ -168,9 +161,10 @@
             <!-- ======= Section Cap 4 ======= -->
             <section id="section-cap4">
                 <div class="container" data-aos="fade-up">
-
+                    <?php require_once('chapter4.php') ?>
                 </div>
             </section>
+
 
             <!-- ======= Section Cap 5 ======= -->
             <section id="section-cap5">
