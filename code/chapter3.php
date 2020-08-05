@@ -6,12 +6,8 @@
 
                 <h5>Enigma</h5>
 
-                <p class="font-weight-bold">Decifre o enigma:</p>
-
-                <p>Mensagem Escrita com o alfabeto Hieróglifos:</p>
-                <img src="view/static/images/heliogrado.jpg" alt="Heliogrado" class="img-thumbnail rounded">
-                
-                <p class="mt-3">Traduza a mensagem para o nosso alfabeto:</p>
+                <p class="font-weight-bold">Decifre a mensagem:</p>
+                <p>6?17!0@N@L15&</p>
 
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
@@ -19,8 +15,6 @@
                         <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
                     </div>
                 </div>
-
-                <img class="img-fluid img-thumbnail rounded" src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos">
             </div>
         </div>
     </div>
