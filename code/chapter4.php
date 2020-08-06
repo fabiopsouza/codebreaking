@@ -6,21 +6,36 @@
 
                 <h5>Enigma</h5>
 
-                <p>Decifre o enigma:</p>
+                <p>Decifre o quadro de Vegenère</p>
 
-                <p>Mensagem Escrita com o alfabeto Hieróglifos:</p>
-                <img src="view/static/images/heliogrado.jpg" alt="Heliogrado" class="img-thumbnail rounded" style="max-width: 100%">
+                <p>Utilize o quadro abaixo para decodificar o texto cifrado</p>
+                <p>Através da CHAVE e o Mensagem Cifrada, observe o quadro para decodificar o texto</p>
                 <br><br>
-                <p>Traduza a mensagem para o nosso alfabeto:</p>
+                <table>
+                    <tr>
+                        <td><b>Chave:</b></td>
+                        <td>L V Z A O N J T V W Q </td>
+                    </tr>
+                    <tr>
+                        <td><b>Mensagem Cifrada:</b></td>
+                        <td>N J M S D V A T X W E</td>
+                    </tr>
+                </table>
+                <br><br>
+                <p>Usando a cifra de Vegernère encontre a mensagem original:</p>
 
-                <div class="input-group mb-3" style="max-width: 500px">
+                <div class="input-group mb-3" style="max-width: 35%;">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
+                    <div class="input-group-append">                    
                         <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
                     </div>
                 </div>
-
-                <img src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 100%">
+                <img src="view/static/images/quadro-vigenere.0f64bd00.png" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 80%">
+                <br><br>
+                <p><b>***Como faz isso?</b></p>
+                <p>As letras da CHAVE correspondem a primeira coluna da tabela e o MENSAGEM CIFRADA que correspondem a linha da Chave, ou seja, se a letra CHAVE for H e a letra do MENSAGEM CIFRADA for S a letra descoberta ser L. </p>
+                <img src="view/static/images/vegenere-exempo.dcbce512.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 100%">
+                
             </div>
         </div>
     </div>
