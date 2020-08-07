@@ -9,9 +9,10 @@
 				<div class="col-12 col-md-12">
 					<p class="font-weight-bold">Decifre o código Morse observando a matriz abaixo.</p>				                					
 					<p class="text-justify">Mensagem escrita com Código Morse:</p>				
-					<img src="view/static/images/mensagem_morse.png" alt="Heliogrado" class="img-thumbnail rounded">
-				
-					<p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					<img src="view/static/images/mensagem_morse.png" alt="Morse" class="img-thumbnail rounded"><br />
+					
+					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					
 					<div class="input-group mb-3" style="max-width: 500px">				
 						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
 						<div class="input-group-append">
@@ -21,6 +22,7 @@
 				</div>
 				<div class="col-12 col-lg-7">			
 					<img class="img-fluid img-thumbnail align-certer rounded" src="view/static/images/morse.jpeg" alt="Morse">			
+					<p>Matriz Morse - Decifrador</p>
 				</div>
 			</div>
 		</div>
