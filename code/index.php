@@ -175,7 +175,7 @@
             <!-- ======= Section Cap 6 ======= -->
             <section id="section-cap6">
                 <div class="container" data-aos="fade-up">
-
+					<?php require_once('chapter6.php') ?>
                 </div>
             </section>
 
