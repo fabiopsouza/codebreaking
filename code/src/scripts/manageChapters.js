@@ -9,8 +9,10 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const passwordChapter = chapterData.password.toLowerCase()
     if(passwordChapter === userPasswordChapter){
         _releaseChapter(numberChapter)
+        buttonElement.parentNode.parentNode.innerHTML = ""
+        _alertResult(true)
     }else{
-        alert('Senha incorreta')
+        _alertResult(false)
     }
 }
 
@@ -53,4 +55,26 @@ async function _getDataOfAChapter(numberChapter){
             result = response.chapters[indexChapter]
         })
     return result
+}
+
+/**
+ * Esconder o input de texto e o botão de envio, pertencentes ao puzzle 
+ * (Função criada para adicionar futuras animações quando for necessário)
+ * @param {HTMLElement} input input group que contém o campo de inserir a senha e o botão de envio
+ */
+function _hideInputPuzzle(input){
+    input.innerHTML = ""
+}
+
+/**
+ * Avisar o usuário se acertou ou se errou a senha do puzzle
+ * @param {Boolean} status true se o usuário inseriu a senha corretamente, false se não
+ */
+function _alertResult(status){
+    const statusPositive = status === true
+    const result = statusPositive 
+        ? "senha correta, próximo capítulo liberado!"
+        : "senha incorreta"
+        
+    alert(result)
 }
