@@ -1,25 +1,3 @@
-<!-- Puzzle -->
-<div class="row">
-    <div class="col-12 col-md-10 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <p class="font-weight-bold">Decifre a mensagem:</p>
-                <p>6?17!0@N@L15&</p>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Content -->
 <div class="row">
     <div class="col-12">
@@ -118,5 +96,48 @@
 
         <h5 style="color: #ce3c41">Gabinetes Negros</h5>
         <p class="text-justify">Durante o século XVIII, criaram-se gabinetes negros em diversas capitais europeias. O mais famoso era o Geheime kabinets-Kanzlei, em Viena. Os decodificadores que liam os despachos cifrados de diplomatas estrangeiros foram designados para o Cabinet Noir, ou propriamente, Gabinete Negro. As cartas que iam para as embaixadas, chegavam ao gabinete às sete da manhã; eram abertas, copiadas, fechadas e devolvidas ao correio para a entrega. Os despachos passavam pela Áustria chegavam às dez da manhã e as cartas enviadas pelas embaixadas, às quatro da tarde. Aproximadamente cem cartas eram copiadas e entregues aos decifradores. O sucesso dos gabinetes negros obrigaram os secretários a usar a cifra mais segura de Vegenère.</p>
+    </div>
+</div>
+
+<!-- Puzzle -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h5>Enigma</h5>
+
+                <p>Decifre o quadro de Vegenère</p>
+
+                <p>Utilize o quadro abaixo para decodificar o texto cifrado</p>
+                <p>Através da CHAVE e o Mensagem Cifrada, observe o quadro para decodificar o texto</p>
+                <br><br>
+                <table>
+                    <tr>
+                        <td><b>Chave:</b></td>
+                        <td>L V Z A O N J T V W Q </td>
+                    </tr>
+                    <tr>
+                        <td><b>Mensagem Cifrada:</b></td>
+                        <td>N J M S D V A T X W E</td>
+                    </tr>
+                </table>
+                <br><br>
+                <p>Usando a cifra de Vegernère encontre a mensagem original:</p>
+
+                <div class="input-group mb-3" style="max-width: 35%;">
+                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">                    
+                        <button class="btn btn-success" onclick="return checkPasswordChapter(4, this)" type="button" id="button-addon2">Verificar</button>
+                    </div>
+                </div>
+                <img src="view/static/images/quadro-vigenere.0f64bd00.png" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 80%">
+                <br><br>
+                <p><b>***Como faz isso?</b></p>
+                <p>As letras da CHAVE correspondem a primeira coluna da tabela e o MENSAGEM CIFRADA que correspondem a linha da Chave, ou seja, se a letra CHAVE for H e a letra do MENSAGEM CIFRADA for S a letra descoberta ser L. </p>
+                <img src="view/static/images/vegenere-exempo.dcbce512.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 100%">
+                
+            </div>
+        </div>
     </div>
 </div>

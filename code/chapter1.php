@@ -1,3 +1,4 @@
+<!-- Content -->
 <div class="row">
     <div class="col-12">
         <h2 style="color: #39CCCC">Cifras Antigas</h2>
@@ -50,5 +51,33 @@
         <p class="text-justify">Já usando um tom mais estilizado podemos destacar que os espiões também fizeram bom uso da codificação de mensagens, durante a guerra fria a criação de cifras se tornou algo muito comum, e tendo um toque de sofisticação, usava-se técnicas de programação das mensagens  afim de só um grupo de especialistas pudessem ser capazes de descodificar tal mensagem.</p>
         <p class="text-justify">E com o advento da tecnologia aparecem empresas muito importantes que conhecemos até nos dias de hoje como por exemplo a NSA (Agência de Segurança Nacional) dos EUA e o britânico GCHQ (Quartel-General de comunicação do Governo).</p>
         <p class="text-justify">Dentre todos esses métodos e técnicas já citadas a quem diga que a milênios se usava a arte da codificação povos como os chineses usavam inscrições em tumbas eram usadas não para esconder mensagens valiosas mas sim para louvar o trabalho dos escribas mas como tudo munda ao longo da evolução da civilização.</p>        
+    </div>
+</div>
+
+<!-- Puzzle -->
+<div class="row">
+    <div class="col-12 col-md-10 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h5>Enigma</h5>
+
+                <p class="font-weight-bold">Decifre o enigma:</p>
+
+                <p>Mensagem Escrita com o alfabeto Hieróglifos:</p>
+                <img src="view/static/images/heliogrado.jpg" alt="Heliogrado" class="img-thumbnail rounded">
+                
+                <p class="mt-3">Traduza a mensagem para o nosso alfabeto:</p>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" onclick="return checkPasswordChapter(2, this)" type="button" id="button-addon2">Verificar</button>
+                    </div>
+                </div>
+
+                <img class="img-fluid img-thumbnail rounded" src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos">
+            </div>
+        </div>
     </div>
 </div>

@@ -1,29 +1,3 @@
-<!-- Puzzle -->
-<div class="row">
-	<div class="col-12">
-		<div class="card">
-			<div class="card-body">
-				<div class="col-12"><br />  
-					<h5>Enigma</h5><br />
-				</div>
-				<div class="col-12 col-md-12">
-					<p class="text-justify"><strong>Decifre a mensagem cifrada por meio da tecnica transposi&ccedil;&atilde;o colunar</strong></p><br />
-					<p class="text-justify">Palavra chave: <strong>GUERRA</strong></p>
-					<p class="text-justify">Mensagen Transmitida: <strong>COZ SLA OFH BAL MDI EAT</strong></p>
-					<p class="text-justify">A mensagen foi embaralhada invertendo a ordem das colunas, tornando a palavra <strong>GUERRA</strong> em <strong>ARREUG</strong></p>
-					<p class="text-justify">Usando a transposição colunar encontre a mensagem original:</p>
-					
-					<div class="input-group mb-3" style="max-width: 500px">
-						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
-						<div class="input-group-append">
-							<button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
-						</div>
-					</div>				
-				</div>
-			</div>
-		</div>
-	</div>
-</div><br /> 
 <!-- Content -->		
 
 <div class="row">
