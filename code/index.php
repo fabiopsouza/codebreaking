@@ -178,7 +178,7 @@
         <script src="view/static/js/template/aos/aos.js"></script>
         <script src="view/static/js/template/main.js"></script>
 
-        <script src="src/data/chapters.json"></script>
+        <!-- <script src="src/data/chapters.json"></script> -->
         <script src="src/scripts/manageChapters.js"></script>
     </body>
 </html>
