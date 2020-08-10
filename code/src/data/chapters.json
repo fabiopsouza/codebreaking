@@ -34,6 +34,12 @@
             "color": "#39CCCC",
             "number": 6,
             "password": "senha"
+        },
+        {
+            "title": "A criação da Enigma",
+            "color": "#39CCCC",
+            "number": 7,
+            "password": "senha"
         }
     ]
 }
