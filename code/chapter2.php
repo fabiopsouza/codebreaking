@@ -1,31 +1,3 @@
-<!-- Puzzle -->
-<div class="row">
-    <div class="col-12 col-md-10 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <p>Decifre o enigma:</p>
-
-                <p>Mensagem Escrita com o alfabeto Hieróglifos:</p>
-                <img src="view/static/images/heliogrado.jpg" alt="Heliogrado" class="img-thumbnail rounded">
-                
-                <p class="mt-3">Traduza a mensagem para o nosso alfabeto:</p>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
-                    </div>
-                </div>
-
-                <img class="img-fluid img-thumbnail rounded" src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos">
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Content -->
 <div class="row">
     <div class="col-12">
@@ -98,5 +70,27 @@
         <p>ENGLADBCFHIJKMOPQRSTUVWXYZ</p>
         
         <p>A palavra chave não precisa estar no início pode estar em qualquer lugar do alfabeto e apenas o destinatário e o remetente sabem qual é a palavra e a posição dela.</p>
+    </div>
+</div>
+
+<!-- Puzzle -->
+<div class="row">
+    <div class="col-12 col-md-10 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h5>Enigma</h5>
+
+                <p class="font-weight-bold">Decifre a mensagem:</p>
+                <p>6?17!0@N@L15&</p>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" onclick="return checkPasswordChapter(3, this)" type="button" id="button-addon2">Verificar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
