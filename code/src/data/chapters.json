@@ -40,6 +40,12 @@
             "color": "#39CCCC",
             "number": 7,
             "password": "senha"
+        },
+        {
+            "title": "A decodificação da Enigma",
+            "color": "#39CCCC",
+            "number": 8,
+            "password": "senha"
         }
     ]
 }
