@@ -130,5 +130,36 @@
 		<p>Código Baudot</p>
 	</div>
 </div>
+
+<!-- Puzzle -->
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-body">
+				<div class="col-12"><br /> 
+					<h5>Enigma</h5><br />	
+				</div>	
+				<div class="col-12 col-md-12">
+					<p class="font-weight-bold">Decifre o código Morse observando a matriz abaixo.</p>				                					
+					<p class="text-justify">Mensagem escrita com Código Morse:</p>				
+					<img src="view/static/images/mensagem_boudot.png" alt="Morse" class="img-thumbnail rounded"><br />
+					
+					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					
+					<div class="input-group mb-3" style="max-width: 500px">				
+						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(7, this)" type="button" id="button-addon2">Verificar</button>
+						</div>
+					</div>					
+				</div>
+				<div class="col-12 col-md-12">			
+					<img class="img-fluid img-thumbnail align-certer rounded" src="view/static/images/tabela-codigo-baudot.jpeg" alt="C&oacute;digo Baudot">			
+					<p>C&oacute;digo Baudot</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><br /><br /> 
  
 

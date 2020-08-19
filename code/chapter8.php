@@ -239,7 +239,19 @@
 					<h5>Enigma</h5><br />
 				</div>
 				<div class="col-12 col-md-12">
-								
+					<p class="font-weight-bold">Agora, você faz parte do exercito alemão, e precisa enviar uma mensagem para o outro pelotão alemão.
+					(Anote sua mensagem criptografada para o próximo capitulo)</p>				                					
+					<!--<p class="text-justify">Mensagem escrita com Código Morse:</p>				-->
+					<img src="view/static/images/maquina-enigma.jpeg" alt="Máquina Enigma" class="img-thumbnail rounded"><br />
+					
+					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					
+					<div class="input-group mb-3" style="max-width: 500px">				
+						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(9, this)" type="button" id="button-addon2">Verificar</button>
+						</div>
+					</div>					
 				</div>
 			</div>
 		</div>

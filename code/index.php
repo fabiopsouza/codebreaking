@@ -131,6 +131,30 @@
                                         <p class="description">A mecanização da criptografia começou no século XV com o disco de Alberti...</p>
                                     </a>
                                 </div>
+								<div class="timeline">
+                                    <a href="#section-cap7" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 7</span>
+                                        <span class="year d-block d-xl-none">Cap 7</span>
+                                        <h3 class="title">A criação da Enigma</h3>
+                                        <p class="description">A criação do enigma - O engenheiro elétrico Arthur Scherbius, requereu em 1918...</p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#section-cap8" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 8</span>
+                                        <span class="year d-block d-xl-none">Cap 8</span>
+                                        <h3 class="title">Escola de Cifras</h3>
+                                        <p class="description">Criada em 1919, no inicio sobre os cuidados do almirantado e depois para o...</p>
+                                    </a>
+                                </div>								
+								<div class="timeline">
+                                    <a href="#section-cap9" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 9</span>
+                                        <span class="year d-block d-xl-none">Cap 9</span>
+                                        <h3 class="title">Vermelho Roxo</h3>
+                                        <p class="description">Em 1923, um oficial da Marinha dos Estados Unidos adquiriu uma cópia...</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
