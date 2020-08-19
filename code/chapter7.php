@@ -172,7 +172,22 @@
 					<h5>Enigma</h5><br />
 				</div>
 				<div class="col-12 col-md-12">
-								
+					<p>
+            Agora, você faz parte do exército alemão, e precisa enviar uma mensagem para o outro pelotão alemão. <br>
+            Coloque os plugins no lugar correto conforme o livro.<br>
+            <small>(Anote sua mensagem criptografada para o próximo capítulo e a configuração do plugin)</small>
+          </p>
+
+          <iframe src="http://fci.inf.br/enigma" width="100%" height="600" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>"></iframe>
+
+          <p>Coloque aqui a mensagem criptografada. (Não esqueça de anotar a configuração da máquina enigma)</p>
+          <div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>">
+            <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+            <input type="text" class="form-control" placeholder="Mensagem Criptografada" aria-label="Mensagem Criptografada" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-success" onclick="return checkPasswordChapter(8, this)" type="button" id="button-addon2">Verificar</button>
+            </div>
+          </div>
 				</div>
 			</div>
 		</div>
