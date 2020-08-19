@@ -125,7 +125,7 @@
                 <br><br>
                 <p>Usando a cifra de Vegernère encontre a mensagem original:</p>
 
-                <div class="input-group mb-3" style="max-width: 35%;">
+                <div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved'] == 1) ? 'none' : 'show' ?>; max-width: 35%;">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <div class="input-group-append">                    
                         <button class="btn btn-success" onclick="return checkPasswordChapter(4, this)" type="button" id="button-addon2">Verificar</button>

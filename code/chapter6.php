@@ -131,4 +131,26 @@
 	</div>
 </div>
  
+<!-- Puzzle -->
+<div class="row">
+    <div class="col-12 col-md-10 col-lg-6">
+        <div class="card">
+            <div class="card-body">
 
+                <h5>Enigma</h5>
+
+                <p class="font-weight-bold">Decifre a mensagem:</p>
+                <p><img class="img-fluid img-thumbnail rounded" src="view/static/images/enigma_cap6_1.jpg" alt="Tabela"></p>
+
+                <div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>">
+                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" onclick="return checkPasswordChapter(7, this)" type="button" id="button-addon2">Verificar</button>
+                    </div>
+                </div>
+
+                <img class="img-fluid img-thumbnail rounded" src="view/static/images/enigma_cap6.jpg" alt="Tabela">
+            </div>
+        </div>
+    </div>
+</div>

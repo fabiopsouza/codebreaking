@@ -59,7 +59,7 @@
 					
 					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
 					
-					<div class="input-group mb-3" style="max-width: 500px">				
+					<div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>; max-width: 500px">				
 						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
 						<div class="input-group-append">
 							<button class="btn btn-success" onclick="return checkPasswordChapter(5, this)" type="button" id="button-addon2">Verificar</button>

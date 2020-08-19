@@ -69,7 +69,7 @@
                 
                 <p class="mt-3">Traduza a mensagem para o nosso alfabeto:</p>
 
-                <div class="input-group mb-3">
+                <div class="input-group mb-3" id="chapterEnigma2">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
                     <div class="input-group-append">
                         <button class="btn btn-success" onclick="return checkPasswordChapter(2, this)" type="button" id="button-addon2">Verificar</button>

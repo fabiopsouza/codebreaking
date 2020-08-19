@@ -82,14 +82,16 @@
                 <h5>Enigma</h5>
 
                 <p class="font-weight-bold">Decifre a mensagem:</p>
-                <p>6?17!0@N@L15&</p>
+                <p><?= htmlentities("<R19706R@/@") ?></p>
 
-                <div class="input-group mb-3">
+                <div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
                     <div class="input-group-append">
                         <button class="btn btn-success" onclick="return checkPasswordChapter(3, this)" type="button" id="button-addon2">Verificar</button>
                     </div>
                 </div>
+
+                <img class="img-fluid img-thumbnail rounded" src="view/static/images/tabela_criptografia.png" alt="Tabela">
             </div>
         </div>
     </div>
