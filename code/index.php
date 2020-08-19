@@ -144,110 +144,7 @@
                 </div>
             </section>
 
-            <!-- ======= Section Cap 2 ======= -->
-            <section id="section-cap2">
-                <div class="container" data-aos="fade-up">
-                    <?php require_once('chapter2.php') ?>
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 3 ======= -->
-            <section id="section-cap3">
-                <div class="container" data-aos="fade-up">
-                  <?php require_once('chapter3.php') ?>
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 4 ======= -->
-            <section id="section-cap4">
-                <div class="container" data-aos="fade-up">
-                    <?php require_once('chapter4.php') ?>
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 5 ======= -->
-            <section id="section-cap5">
-                <div class="container" data-aos="fade-up">
-					<?php require_once('chapter5.php') ?>
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 6 ======= -->
-            <section id="section-cap6">
-                <div class="container" data-aos="fade-up">
-					<?php require_once('chapter6.php') ?>
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 7 ======= -->
-            <section id="section-cap7">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 8 ======= -->
-            <section id="section-cap8">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 9 ======= -->
-            <section id="section-cap9">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 10 ======= -->
-            <section id="section-cap10">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 11 ======= -->
-            <section id="section-cap11">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 12 ======= -->
-            <section id="section-cap12">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 13 ======= -->
-            <section id="section-cap13">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 14 ======= -->
-            <section id="section-cap14">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 15 ======= -->
-            <section id="section-cap15">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
-
-            <!-- ======= Section Cap 16 ======= -->
-            <section id="section-cap16">
-                <div class="container" data-aos="fade-up">
-
-                </div>
-            </section>
+            
             
         </main>
 
@@ -280,5 +177,8 @@
         <script src="view/static/js/template/venobox/venobox.min.js"></script>
         <script src="view/static/js/template/aos/aos.js"></script>
         <script src="view/static/js/template/main.js"></script>
+
+        <!-- <script src="src/data/chapters.json"></script> -->
+        <script src="src/scripts/manageChapters.js"></script>
     </body>
 </html>

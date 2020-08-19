@@ -1,46 +1,3 @@
-<!-- Puzzle -->
-<div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <p>Decifre o quadro de Vegenère</p>
-
-                <p>Utilize o quadro abaixo para decodificar o texto cifrado</p>
-                <p>Através da CHAVE e o Mensagem Cifrada, observe o quadro para decodificar o texto</p>
-                <br><br>
-                <table>
-                    <tr>
-                        <td><b>Chave:</b></td>
-                        <td>L V Z A O N J T V W Q </td>
-                    </tr>
-                    <tr>
-                        <td><b>Mensagem Cifrada:</b></td>
-                        <td>N J M S D V A T X W E</td>
-                    </tr>
-                </table>
-                <br><br>
-                <p>Usando a cifra de Vegernère encontre a mensagem original:</p>
-
-                <div class="input-group mb-3" style="max-width: 35%;">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">                    
-                        <button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
-                    </div>
-                </div>
-                <img src="view/static/images/quadro-vigenere.0f64bd00.png" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 80%">
-                <br><br>
-                <p><b>***Como faz isso?</b></p>
-                <p>As letras da CHAVE correspondem a primeira coluna da tabela e o MENSAGEM CIFRADA que correspondem a linha da Chave, ou seja, se a letra CHAVE for H e a letra do MENSAGEM CIFRADA for S a letra descoberta ser L. </p>
-                <img src="view/static/images/vegenere-exempo.dcbce512.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 100%">
-                
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Content -->
 <div class="row">
     <div class="col-12">
@@ -86,3 +43,34 @@
         <p>O primeiro livro europeu conhecido a descrever o uso da criptografia foi escrito pelo monge franciscano e polimata inglês Roger Bacon. Grande estudioso, propôs idéias avançadas e delineou sete métodos para manter mensagens em segredo. Em certa época, acreditou-se que fosse ele o autor do manuscrito de Voynich.</p>
     </div>
 </div>
+
+<!-- Puzzle -->
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-body">
+				<div class="col-12"><br /> 
+					<h5>Enigma</h5><br />	
+				</div>	
+				<div class="col-12 col-md-12">
+					<p class="font-weight-bold">Decifre o código Morse observando a matriz abaixo.</p>				                					
+					<p class="text-justify">Mensagem escrita com Código Morse:</p>				
+					<img src="view/static/images/mensagem_morse.png" alt="Morse" class="img-thumbnail rounded"><br />
+					
+					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					
+					<div class="input-group mb-3" style="max-width: 500px">				
+						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(5, this)" type="button" id="button-addon2">Verificar</button>
+						</div>
+					</div>					
+				</div>
+				<div class="col-12 col-lg-7">			
+					<img class="img-fluid img-thumbnail align-certer rounded" src="view/static/images/morse.jpeg" alt="Morse">			
+					<p>Matriz Morse - Decifrador</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><br /><br />  
