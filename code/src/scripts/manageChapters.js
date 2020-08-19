@@ -12,7 +12,7 @@ async function checkPasswordChapter(numberChapter, buttonElement){
             const userPasswordChapter1 = buttonElement.parentNode.parentNode.childNodes[3].value
             localStorage.setItem('message', userPasswordChapter);
             localStorage.setItem('messageCrypt', userPasswordChapter1);
-            _releaseChapter(numberChapter)
+            _releaseChapter(numberChapter, 0)
             buttonElement.parentNode.parentNode.innerHTML = ""
             _alertResult(true)
             _setChapter(numberChapter);
@@ -21,7 +21,7 @@ async function checkPasswordChapter(numberChapter, buttonElement){
         if(numberChapter === 9) {            
             let message = localStorage.getItem('message');
             if(message.toUpperCase() === userPasswordChapter.toUpperCase()) {
-                _releaseChapter(numberChapter)
+                _releaseChapter(numberChapter, 0)
                 buttonElement.parentNode.parentNode.innerHTML = ""
                 _alertResult(true)
                 _setChapter(numberChapter);
@@ -34,7 +34,7 @@ async function checkPasswordChapter(numberChapter, buttonElement){
         }
     }
     else if(passwordChapter === userPasswordChapter){
-        _releaseChapter(numberChapter)
+        _releaseChapter(numberChapter, 0)
         buttonElement.parentNode.parentNode.innerHTML = ""
         _alertResult(true)
         _setChapter(numberChapter);
