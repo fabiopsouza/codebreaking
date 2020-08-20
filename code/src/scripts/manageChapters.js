@@ -7,8 +7,35 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const userPasswordChapter = buttonElement.parentNode.parentNode.childNodes[1].value
     const chapterData = await _getDataOfAChapter(numberChapter)
     const passwordChapter = chapterData.password.toLowerCase()
-    if(passwordChapter === userPasswordChapter){
-        _releaseChapter(numberChapter)
+    
+    if(passwordChapter === "*") {
+        if(numberChapter === 8) {
+            const userPasswordChapter1 = buttonElement.parentNode.parentNode.childNodes[3].value
+            localStorage.setItem('message', userPasswordChapter);
+            localStorage.setItem('messageCrypt', userPasswordChapter1);
+            _releaseChapter(numberChapter, 0)
+            buttonElement.parentNode.parentNode.innerHTML = ""
+            _alertResult(true)
+            _setChapter(numberChapter);
+        }
+
+        if(numberChapter === 9) {            
+            let message = localStorage.getItem('message');
+            if(message.toUpperCase() === userPasswordChapter.toUpperCase()) {
+                _releaseChapter(numberChapter, 0)
+                buttonElement.parentNode.parentNode.innerHTML = ""
+                _alertResult(true)
+                _setChapter(numberChapter);
+                localStorage.removeItem('message');
+                localStorage.removeItem('messageCrypt');
+            }
+            else {
+                _alertResult(false)
+            }
+        }
+    }
+    else if(passwordChapter === userPasswordChapter){
+        _releaseChapter(numberChapter, 0)
         buttonElement.parentNode.parentNode.innerHTML = ""
         _alertResult(true)
     }else{
