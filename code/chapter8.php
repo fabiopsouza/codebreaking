@@ -239,22 +239,7 @@
 					<h5>Enigma</h5><br />
 				</div>
 				<div class="col-12 col-md-12">
-					<p>
-            Para confirmar a mensagem que foi enviada pelo outro pelotão, faça o caminho inverso e terá que aparecer a mensagem que foi criptografa inicialmente.<br>
-            <small>(Configure a maquina igual o capítulo anterior e informa a frase criptografada)</small>
-          </p>
-
-          <h5>Frase criptografada: <span style="color: red">*|*</span></h5>
-
-          <iframe src="http://fci.inf.br/enigma" width="100%" height="600" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>"></iframe>
-
-          <p>Coloque aqui a mensagem traduzida.</p>
-          <div class="input-group mb-3" style="display: <?= (isset($_GET['solved']) && $_GET['solved']) ? 'none' : 'show' ?>">
-            <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-success" onclick="return checkPasswordChapter(9, this)" type="button" id="button-addon2">Verificar</button>
-            </div>
-          </div>
+								
 				</div>
 			</div>
 		</div>

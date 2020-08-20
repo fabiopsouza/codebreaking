@@ -9,55 +9,43 @@
             "title": "Anagramas Árabes",
             "color": "#bf3fc8",
             "number": 2,
-            "password":  "mensagensocultas"
+            "password": "senha"
         },
         {
             "title": "Codificadores Europeus",
             "color": "#ce3c41",
             "number": 3,
-            "password": "criptografa"
+            "password": "senha"
         },
         {
             "title": "Decifrar o Indecifrável",
             "color": "#bf3fc8",
             "number": 4,
-            "password": "conspiracao"
+            "password": "senha"
         },
         {
             "title": "Sala 40",
             "color": "#39CCCC",
             "number": 5,
-            "password": "telegrafista"
+            "password": "senha"
         },
         {
             "title": "O Nascimento da Mecanização",
             "color": "#39CCCC",
             "number": 6,
-            "password": "guerra"
+            "password": "senha"
         },
         {
             "title": "A criação da Enigma",
             "color": "#39CCCC",
             "number": 7,
-            "password": "militar"
+            "password": "senha"
         },
         {
             "title": "A decodificação da Enigma",
             "color": "#39CCCC",
             "number": 8,
-            "password": "*"
-        },
-        {
-            "title": "Escola de Cifras",
-            "color": "#39CCCC",
-            "number": 9,
-            "password": "*"
-        },
-        {
-            "title": "Escola de Cifras",
-            "color": "#39CCCC",
-            "number": 10,
-            "password": "cessar fogo"
+            "password": "senha"
         }
     ]
 }
