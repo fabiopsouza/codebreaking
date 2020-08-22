@@ -143,9 +143,6 @@
                     <?php require_once('chapter1.php') ?>
                 </div>
             </section>
-
-            
-            
         </main>
 
         <!-- ======= Footer ======= -->

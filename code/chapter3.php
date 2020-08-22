@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<div class="row mt-5">
+<div class="row mt-3">
     <div class="col-12">
         <h5 style="color: #ce3c41">O disco de Alberti</h5>
     </div>
@@ -78,7 +78,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-12">
         <h5 style="color: #ce3c41">La Chiffre Indéchiffrable</h5>
         <p class="text-justify">A ideia da substituição polialfabética, ou seja, mais de um alfabeto para serem decodificados foi desenvolvido lentamente em um sistema atribuído ao diplomata francês Blaise de Vigenêre. Foram utilizados 26 alfabetos cifrados e o sistema fora chamado de “le chiffre indéchiffrable”, ou “a cifra indescritível”.</p>
@@ -101,7 +101,7 @@
 
 <!-- Puzzle -->
 <div class="row">
-    <div class="col-12">
+    <div class="col-12 col-lg-8">
         <div class="card">
             <div class="card-body">
 
@@ -111,7 +111,7 @@
 
                 <p>Utilize o quadro abaixo para decodificar o texto cifrado</p>
                 <p>Através da CHAVE e o Mensagem Cifrada, observe o quadro para decodificar o texto</p>
-                <br><br>
+                <br>
                 <table>
                     <tr>
                         <td><b>Chave:</b></td>
@@ -122,20 +122,20 @@
                         <td>N J M S D V A T X W E</td>
                     </tr>
                 </table>
-                <br><br>
-                <p>Usando a cifra de Vegernère encontre a mensagem original:</p>
+                <br>
+                <p class="font-weight-light mb-0">Usando a cifra de Vegernère encontre a mensagem original:</p>
 
-                <div class="input-group mb-3" style="max-width: 35%;">
+                <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <div class="input-group-append">                    
                         <button class="btn btn-success" onclick="return checkPasswordChapter(4, this)" type="button" id="button-addon2">Verificar</button>
                     </div>
                 </div>
-                <img src="view/static/images/quadro-vigenere.0f64bd00.png" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 80%">
-                <br><br>
-                <p><b>***Como faz isso?</b></p>
+                <img src="view/static/images/quadro-vigenere.0f64bd00.png" alt="Hieroglifos" class="img-fluid rounded">
+                
+                <p class="font-weight-bold mt-3">Como faz isso?</p>
                 <p>As letras da CHAVE correspondem a primeira coluna da tabela e o MENSAGEM CIFRADA que correspondem a linha da Chave, ou seja, se a letra CHAVE for H e a letra do MENSAGEM CIFRADA for S a letra descoberta ser L. </p>
-                <img src="view/static/images/vegenere-exempo.dcbce512.jpeg" alt="Hieroglifos" class="img-thumbnail rounded" style="max-width: 100%">
+                <img src="view/static/images/vegenere-exempo.dcbce512.jpeg" alt="Hieroglifos" class="img-fluid rounded">
                 
             </div>
         </div>
