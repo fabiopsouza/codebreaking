@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="col-9">
-    <h2 style="color: #39CCCC">A decodificação da Enigma</h2><br>
+    <h2 style="color: #39CCCC">Capítulo 8 - A decodificação da Enigma</h2><br>
     <p class="text-justify">
       Se sentindo ameaçada pelo governo comunista russo, que pregava a revolução mundial, a Polônia empregou um trio de matemáticos para encontrar falhas na Enigma.
     </p>

@@ -1,7 +1,7 @@
 <!-- Content -->
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #ce3c41">Codificadores Europeus</h2>
+        <h2 style="color: #ce3c41">Capítulo 3 - Codificadores Europeus</h2>
     </div>
 </div>
 

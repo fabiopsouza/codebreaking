@@ -1,7 +1,7 @@
 <!-- Content -->
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #bf3fc8">Decifrar o Indecifrável</h2>
+        <h2 style="color: #bf3fc8">Capítulo 4 - Decifrar o Indecifrável</h2>
     </div>
 </div>
 

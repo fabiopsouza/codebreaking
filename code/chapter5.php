@@ -2,7 +2,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #39CCCC">Sala 40</h2>
+        <h2 style="color: #39CCCC">Capítulo 5 - Sala 40</h2>
 		<br />
     </div>
 </div>

@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="col-12">
-    <h2 style="color: #39CCCC">A criação da Enigma</h2><br>
+    <h2 style="color: #39CCCC">Capítulo 7 - A criação da Enigma</h2><br>
     <p class="text-justify">
       O engenheiro elétrico Arthur Scherbius, requereu em 1918, a patente de uma
       máquina de codificação que usava rodas eletrificadas, alegando que sua máquina

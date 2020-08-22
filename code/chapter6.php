@@ -2,7 +2,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #39CCCC">O Nascimento da Mecanização</h2><br>
+        <h2 style="color: #39CCCC">Capítulo 6 - O Nascimento da Mecanização</h2><br>
 		<p class="text-justify">A mecanização da criptografia começou no século XV com o disco de Alberti. Apesar de, Thomas Jefferson, terceiro presidente americano ter inventado outro sistema no século XVIII. </p>
     </div>
 </div>
