@@ -57,7 +57,7 @@
 				<div class="col-12 col-md-12">
 					<p class="font-weight-bold">Decifre o código Morse observando a matriz abaixo.</p>
 					<p class="text-justify">Mensagem escrita com Código Morse:</p>
-					<img src="view/static/images/mensagem_morse.png" alt="Morse" class="img-thumbnail rounded">
+					<img src="view/static/images/mensagem_morse.png" alt="Morse" class="rounded">
 					
 					<p class="text-justify"><strong>Traduza a mensagem:</strong></p>
 					
