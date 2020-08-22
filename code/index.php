@@ -155,7 +155,7 @@
 
         <div id="preloader"></div>
         <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
+        
         <!-- Scripts -->
         <!-- jQuery -->
         <script src="view/static/js/jquery/jquery-3.5.1.min.js"></script>
