@@ -1,13 +1,13 @@
 /**
  * Carrega os capítulos de acordo com o progresso salvo do usuário no localStorage
  */
-function loadProgressUser(){
+async function loadProgressUser(){
     const progress = localStorage.getItem('currentChapter')
         ? localStorage.getItem('currentChapter')
         : 1
 
     for(i = 2; i <= progress; i++){
-        _releaseChapter(i)
+        await _releaseChapter(i)
     }
 }
 
@@ -21,7 +21,7 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const chapterData = await _getDataOfAChapter(numberChapter)
     const passwordChapter = chapterData.password.toLowerCase()
     if(passwordChapter === userPasswordChapter){
-        _releaseChapter(numberChapter)
+        await _releaseChapter(numberChapter)
         buttonElement.parentNode.parentNode.innerHTML = ""
         _alertResult(true)
         localStorage.setItem('currentChapter', numberChapter)
@@ -33,32 +33,47 @@ async function checkPasswordChapter(numberChapter, buttonElement){
 /**
  * Responsável por exibir todo o HTML do capítulo escolhido
  * @param {Number} numberChapter 
+ * @return {Promise}
  */
 function _releaseChapter(numberChapter){
-    const xhr = new XMLHttpRequest();
-    const main = document.getElementById('main')
-    
-    xhr.onload = function() {
-        if(this.status === 200){
-            main.innerHTML += `
-                <section id="section-cap${numberChapter}">
-                    <div class="container" data-aos="fade-up">
-                        ${xhr.responseText}
-                    </div>
-                </section>
-            `
-        }else{
-            console.log('Erro no servidor :((')
+    return new Promise(function (resolve, reject) {
+        const xhr = new XMLHttpRequest();
+        const main = document.getElementById('main')
+        
+        xhr.onload = function() {
+            if (this.status >= 200 && this.status < 300) {
+                main.innerHTML += `
+                    <section id="section-cap${numberChapter}">
+                        <div class="container" data-aos="fade-up">
+                            ${xhr.responseText}
+                        </div>
+                    </section>
+                `
+                resolve(xhr.response);
+            } else {
+                reject({
+                    status: this.status,
+                    statusText: xhr.statusText
+                })
+            }
         }
-    }
 
-    xhr.open('get', `chapter${numberChapter}.php`)
-    xhr.send()
+        xhr.onerror = function () {
+            reject({
+                status: this.status,
+                statusText: xhr.statusText
+            })
+        }
+
+        xhr.open('get', `chapter${numberChapter}.php`)
+        xhr.send()
+    })
 }
 
 /**
  * Pega todos os dados de um capítulo escolhido (referente ao data/chapters.json)
  * @param {Number} numberChapter 
+ * @return {Object}
  */
 async function _getDataOfAChapter(numberChapter){
     const indexChapter = numberChapter - 1
