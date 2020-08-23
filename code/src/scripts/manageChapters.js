@@ -1,14 +1,15 @@
 /**
  * Carrega os capítulos de acordo com o progresso salvo do usuário no localStorage
  */
-function loadProgressUser(){
+async function loadProgressUser(){
     const progress = localStorage.getItem('currentChapter')
         ? localStorage.getItem('currentChapter')
         : 1
 
     for(i = 2; i <= progress; i++){
-        _releaseChapter(i)
+        await _releaseChapter(i)
     }
+    _hideAllInputsPuzzlesFromUserProgress()
 }
 
 /**
@@ -20,36 +21,9 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const userPasswordChapter = buttonElement.parentNode.parentNode.childNodes[1].value
     const chapterData = await _getDataOfAChapter(numberChapter)
     const passwordChapter = chapterData.password.toLowerCase()
-    
-    if(passwordChapter === "*") {
-        if(numberChapter === 8) {
-            const userPasswordChapter1 = buttonElement.parentNode.parentNode.childNodes[3].value
-            localStorage.setItem('message', userPasswordChapter);
-            localStorage.setItem('messageCrypt', userPasswordChapter1);
-            _releaseChapter(numberChapter, 0)
-            buttonElement.parentNode.parentNode.innerHTML = ""
-            _alertResult(true)
-            _setChapter(numberChapter);
-        }
-
-        if(numberChapter === 9) {            
-            let message = localStorage.getItem('message');
-            if(message.toUpperCase() === userPasswordChapter.toUpperCase()) {
-                _releaseChapter(numberChapter, 0)
-                buttonElement.parentNode.parentNode.innerHTML = ""
-                _alertResult(true)
-                _setChapter(numberChapter);
-                localStorage.removeItem('message');
-                localStorage.removeItem('messageCrypt');
-            }
-            else {
-                _alertResult(false)
-            }
-        }
-    }
-    else if(passwordChapter === userPasswordChapter){
-        _releaseChapter(numberChapter, 0)
-        buttonElement.parentNode.parentNode.innerHTML = ""
+    if(passwordChapter === userPasswordChapter){
+        _hideInputPuzzle(buttonElement.parentNode.parentNode)
+        await _releaseChapter(numberChapter)
         _alertResult(true)
         localStorage.setItem('currentChapter', numberChapter)
     }else{
@@ -60,32 +34,47 @@ async function checkPasswordChapter(numberChapter, buttonElement){
 /**
  * Responsável por exibir todo o HTML do capítulo escolhido
  * @param {Number} numberChapter 
+ * @return {Promise}
  */
 function _releaseChapter(numberChapter){
-    const xhr = new XMLHttpRequest();
-    const main = document.getElementById('main')
-    
-    xhr.onload = function() {
-        if(this.status === 200){
-            main.innerHTML += `
-                <section id="section-cap${numberChapter}">
-                    <div class="container" data-aos="fade-up">
-                        ${xhr.responseText}
-                    </div>
-                </section>
-            `
-        }else{
-            console.log('Erro no servidor :((')
+    return new Promise(function (resolve, reject) {
+        const xhr = new XMLHttpRequest();
+        const main = document.getElementById('main')
+        
+        xhr.onload = function() {
+            if (this.status >= 200 && this.status < 300) {
+                main.innerHTML += `
+                    <section id="section-cap${numberChapter}">
+                        <div class="container" data-aos="fade-up">
+                            ${xhr.responseText}
+                        </div>
+                    </section>
+                `
+                resolve(xhr.response);
+            } else {
+                reject({
+                    status: this.status,
+                    statusText: xhr.statusText
+                })
+            }
         }
-    }
 
-    xhr.open('get', `chapter${numberChapter}.php`)
-    xhr.send()
+        xhr.onerror = function () {
+            reject({
+                status: this.status,
+                statusText: xhr.statusText
+            })
+        }
+
+        xhr.open('get', `chapter${numberChapter}.php`)
+        xhr.send()
+    })
 }
 
 /**
  * Pega todos os dados de um capítulo escolhido (referente ao data/chapters.json)
  * @param {Number} numberChapter 
+ * @return {Object}
  */
 async function _getDataOfAChapter(numberChapter){
     const indexChapter = numberChapter - 1
@@ -105,6 +94,17 @@ async function _getDataOfAChapter(numberChapter){
  */
 function _hideInputPuzzle(input){
     input.innerHTML = ""
+}
+
+/**
+ * Esconder todos os inputs de textos de puzzles (previamente carregados) que o usuário já resolveu
+ */
+function _hideAllInputsPuzzlesFromUserProgress(){
+    let inputsToHide = document.querySelectorAll('.input-group')
+    inputsToHide.forEach((element, index) => {
+        if(index < localStorage.getItem('currentChapter') - 1)
+            _hideInputPuzzle(element)
+    })
 }
 
 /**
