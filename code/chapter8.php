@@ -119,8 +119,11 @@
       e então começavam a decifrar o corpo da mensagem.
     </p>
   </div>
-  <div class="col-12 mb-3 text-center">
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/VnsTHAH5yAE?feature=oembed"></iframe><br>
+
+  <div class="col-12 mb-3 mx-auto d-block text-center" style="max-width: 450px">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VnsTHAH5yAE?feature=oembed" allowfullscreen></iframe>
+    </div>
     <small>Vídeo: Funcionamento da Máquina Enigma 1</small>
   </div>
   <div class="col-12">
