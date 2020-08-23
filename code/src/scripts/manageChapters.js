@@ -1,4 +1,17 @@
 /**
+ * Carrega os capítulos de acordo com o progresso salvo do usuário no localStorage
+ */
+function loadProgressUser(){
+    const progress = localStorage.getItem('currentChapter')
+        ? localStorage.getItem('currentChapter')
+        : 1
+
+    for(i = 2; i <= progress; i++){
+        _releaseChapter(i)
+    }
+}
+
+/**
  * Compara a senha inserida pelo usuario, com a senha do capítulo
  * @param {Number} numberChapter 
  * @param {HTMLElement} buttonElement Elemento do botão na página do capítulo que contém o enigma
@@ -38,6 +51,7 @@ async function checkPasswordChapter(numberChapter, buttonElement){
         _releaseChapter(numberChapter, 0)
         buttonElement.parentNode.parentNode.innerHTML = ""
         _alertResult(true)
+        localStorage.setItem('currentChapter', numberChapter)
     }else{
         _alertResult(false)
     }
