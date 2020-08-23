@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="col-12">
-    <h2 style="color: #39CCCC">A criação da Enigma</h2><br>
+    <h2 style="color: #8cc43d">Capítulo 7 - A criação da Enigma</h2>
     <p class="text-justify">
       O engenheiro elétrico Arthur Scherbius, requereu em 1918, a patente de uma
       máquina de codificação que usava rodas eletrificadas, alegando que sua máquina
@@ -19,26 +19,26 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5>O Rotor</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #8cc43d">O Rotor</h5>
   </div>
-  <div class="col-7">
+  <div class="col-12 col-sm-7">
     <p class="text-justify">
       O rotor utilizado na máquina de Scherbius, era um disco com 26 contatos cada lado, 
       representando as letras do alfabeto. A fiação que ligava os discos era tal que o contato correspondente 
       à letra “A” no lado da entrada estava ligado a “Y” no lado da saída.
     </p>
   </div>
-  <div class="col-5 mb-3 text-center">
-    <img src="view/static/images/rotor.jpg"  alt="Rotor" class="img-fluid img-thumbnail"><br>
+  <div class="col-12 col-sm-5 mb-3 text-center">
+    <img src="view/static/images/rotor.jpg" alt="Rotor" class="img-fluid img-thumbnail"><br>
     <small>Figura 2: Rotor</small>
   </div>  
   <br/>
-  <div class="col-5 mb-3 text-center">
+  <div class="col-12 col-sm-5 mb-3 text-center">
     <img src="view/static/images/funcionamento_rotor.png"  alt="Funcionamento do Rotor" class="img-fluid img-thumbnail"><br>
     <small>Figura 3: Funcionamento do Rotor</small>
   </div>
-  <div class="col-7">
+  <div class="col-12 col-sm-7">
     <p class="text-justify">
       O texto original era inserido por meio de um teclado que enviava uma pequena corrente elétrica a uma placa de entrada 
       que fazia contato com um dos lados do rotor, já o outro lado fazia contato com uma placa de saída, passando corrente 
@@ -56,7 +56,7 @@
       <small>Se a mesma tecla fosse pressionada 26 vezes, a saída voltaria ao início</small>
     </div>
   </div>
-  <div class="col-9">
+  <div class="col-12 col-sm-9">
     <p class="text-justify">
       Com o acréscimo de outro rotor igual, a máquina passaria por 26x26 = 676 ciclos, antes de voltar ao início. 
       Com 03 (três) rotores iguais, seriam 17.576 ciclos. Já com 04 (quatro) rotores: 456.976 ciclos e com 05 (cinco) 
@@ -77,6 +77,15 @@
       para fazer os ajustes iniciais. Havia três filas de teclas de máquina de escrever para inserir o texto original e três 
       linhas de letras em janelas circulares acima, com lâmpadas atrás para mostrar o texto cifrado, uma letra de cada vez.
     </p>
+  </div>
+  <div class="col-12 col-sm-3 text-center">
+    <img src="view/static/images/arthur_scherbius.jpg"  alt="Arthur Scherbius" class="img-fluid img-thumbnail"><br>
+    <small>Figura 4: Arthur Scherbius</small>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12">
     <p class="text-justify">
       Posteriormente os rotores se tornaram destacáveis, para que a ordem pudesse ser trocada. Um “refletor” substituía o 
       quarto rotor, que não se movia e tinha contatos só de um lado, ligados em pares, levando corrente de volta para os 
@@ -84,15 +93,11 @@
       tornava uma letra original em outra, e essa outra na original, fazendo com que nenhuma letra pudesse ser cifrada como ela mesmo.
     </p>
   </div>
-  <div class="col-3 text-center">
-    <img src="view/static/images/arthur_scherbius.jpg"  alt="Arthur Scherbius" class="img-fluid img-thumbnail"><br>
-    <small>Figura 4: Arthur Scherbius</small>
-  </div>
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5>Elucidação</h5><br />
+  <div class="col-12">
+      <h5 style="color: #8cc43d">Elucidação</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -111,8 +116,8 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5>O Painel de Conexão</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #8cc43d">O Painel de Conexão</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -135,10 +140,10 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5>Procedimentos Padronizados</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #8cc43d">Procedimentos Padronizados</h5>
   </div>
-  <div class="col-8">
+  <div class="col-12 col-sm-8">
     <p class="text-justify">
       Antes de codificar uma mensagem, o operador movia os rotores na posição inicial combinadas, conforme um livro 
       de códigos que listava a chave de cada dia. Em seguida, teclava a mensagem letra a letra, anotando as letras 
@@ -157,7 +162,7 @@
       o que mais tarde acredit ter sido um papel importantíssimo em sua vitória na Segunda Guerra Mundial.
     </p>
   </div>
-  <div class="col-4 text-center">
+  <div class="col-12 col-sm-4 text-center">
     <img src="view/static/images/batalha_franca.jpg"  alt="Enigma em uso na batalha da França" class="img-fluid img-thumbnail"><br>
     <small>Figura 5: Enigma em uso na batalha da França</small>
   </div>
@@ -165,16 +170,21 @@
 
 <!-- Puzzle -->
 <div class="row">
-	<div class="col-12">
+	<div class="col-12 col-lg-6">
 		<div class="card">
 			<div class="card-body">
-				<div class="col-12"><br />  
-					<h5>Enigma</h5><br />
+				<div class="col-12">  
+					<h5>Enigma</h5>
 				</div>
-				<div class="col-12 col-md-12">
-								
+				<div class="col-12">
+					<div class="input-group mb-3" style="max-width: 500px">
+						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(8, this)" type="button" id="button-addon2">Verificar</button>
+						</div>
+					</div>				
 				</div>
 			</div>
 		</div>
 	</div>
-</div><br /> 
+</div>
