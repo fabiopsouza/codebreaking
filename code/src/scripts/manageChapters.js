@@ -9,6 +9,7 @@ async function loadProgressUser(){
     for(i = 2; i <= progress; i++){
         await _releaseChapter(i)
     }
+    _hideAllInputsPuzzlesFromUserProgress()
 }
 
 /**
@@ -21,8 +22,8 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const chapterData = await _getDataOfAChapter(numberChapter)
     const passwordChapter = chapterData.password.toLowerCase()
     if(passwordChapter === userPasswordChapter){
+        _hideInputPuzzle(buttonElement.parentNode.parentNode)
         await _releaseChapter(numberChapter)
-        buttonElement.parentNode.parentNode.innerHTML = ""
         _alertResult(true)
         localStorage.setItem('currentChapter', numberChapter)
     }else{
@@ -93,6 +94,17 @@ async function _getDataOfAChapter(numberChapter){
  */
 function _hideInputPuzzle(input){
     input.innerHTML = ""
+}
+
+/**
+ * Esconder todos os inputs de textos de puzzles (previamente carregados) que o usuário já resolveu
+ */
+function _hideAllInputsPuzzlesFromUserProgress(){
+    let inputsToHide = document.querySelectorAll('.input-group')
+    inputsToHide.forEach((element, index) => {
+        if(index < localStorage.getItem('currentChapter') - 1)
+            _hideInputPuzzle(element)
+    })
 }
 
 /**
