@@ -180,5 +180,9 @@
 
         <!-- <script src="src/data/chapters.json"></script> -->
         <script src="src/scripts/manageChapters.js"></script>
+
+        <script>
+            loadProgressUser()
+        </script>
     </body>
 </html>
