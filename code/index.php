@@ -179,7 +179,9 @@
         <script src="src/scripts/manageChapters.js"></script>
 
         <script>
-            loadProgressUser()
+            window.onload = function () {
+                loadProgressUser()
+            }
         </script>
     </body>
 </html>
