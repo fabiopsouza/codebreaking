@@ -1,5 +1,4 @@
 <!-- Content -->	
-
 <div class="row">
     <div class="col-12">
         <h2 style="color: #39CCCC">Sala 40</h2>
@@ -16,12 +15,13 @@
 
 <div class="row">	
 	<div class="col-12"><br />  		
-		<h5>Radiocomunicação</h5><br />        
+		<h5 style="color: #39CCCC">Radiocomunicação</h5><br />        
 	</div>	
 	
 	<div class="col-12 col-md-12">	
 		<p class="text-justify" >Na virada do século XX, ocorreu a invenção de um meio de comunicação eficiente, mas inseguro: o rádio. Para as forças armadas, poder se comunicar sem necessidade dos fios do telégrafo era uma grande vantagem, entretanto, havia um grande problema, qualquer transmissão de mensagem seria facilmente interceptada. Eram necessários novas cifras e códigos mais seguros.</p>                
     </div>
+	
 	<div class="col-12 col-lg-7">	
         <img src="view/static/images/radio.png"  alt="Rádio" class="img-fluid img-thumbnail">
 		<p>Rádio</p>
@@ -30,7 +30,7 @@
 
 <div class="row">
 	<div class="col-12">
-        <h5>Primeira Guerra Mundial</h5><br />
+        <h5 style="color: #39CCCC">Primeira Guerra Mundial</h5><br />
     </div>
 	
 	<div class="col-12 col-md-12">	
@@ -43,7 +43,7 @@
 
 <div class="row">	
 	<div class="col-12">
-		<h5>Seção 25 da Divisão de Informações</h5><br />
+		<h5 style="color: #39CCCC">Seção 25 da Divisão de Informações</h5><br />
 	</div>
 	
 	<div class="col-12 col-md-12">
@@ -57,7 +57,7 @@
 
 <div class="row">	
 	<div class="col-12 ">
-		<h5>Transposição colunar</h5><br />
+		<h5 style="color: #39CCCC">Transposição colunar</h5><br />
 	</div>
 	
 	<div class="col-12 col-md-12">
@@ -75,10 +75,12 @@
 	<div class="col-12 col-md-12">
 		<p>As células que restarem na última linha recebem letras aleatórias. Em seguida, as colunas são reordenadas em ordem alfabética da palavra-chave.</p>
 	</div>
+	
 	<div class="col-12 col-lg-7">
 		<img src="view/static/images/colunar2.png"  alt="Colunar" class="img-fluid img-thumbnail"><br />	
 		<p>Colunar</p>
 	</div>
+	
 	<div class="col-12 col-md-12">	
 		<p class="text-justify">A mensagem é transmitida coluna a coluna.</p>
 		<p class="text-justify">CSGOOW RMRPOS EOERDO SNREUN IEAJCG PATOTR</p>
@@ -88,7 +90,7 @@
 	
 <div class="row">
 	<div class="col-12 ">	
-		<h5>O telegrama de Zimmermann</h5><br />
+		<h5 style="color: #39CCCC">O telegrama de Zimmermann</h5><br />
 	</div>
 	
 	<div class="col-12 col-md-12">
@@ -97,6 +99,7 @@
 		<p class="text-justify">As cópias dessa mensagem logo foram parar na Sala 40 e foi decifrada completamente, mas a questão era o que fazer com a mensagem? </p>
 		<p class="text-justify">Os britânicos não gostariam de revelar que eram capazes de decifrar as mensagens e nem que interceptavam mensagens com países neutros. Então o embaixador britânico no México através de suborno conseguiu uma cópia da mensagem, com uma criptografia simples que foi divulgada em jornais americanos. Em abril de 1971, os EstadosInidos declararam guerra à Alemanha.</p>                
 	</div>	
+	
 	<div class="col-12 col-lg-7">
 		<img src="view/static/images/image05-02.jpg"  alt="Western Union Telegram" class="img-fluid img-thumbnail"><br />	
 		<p>Western Union Telegram</p><br />
@@ -105,24 +108,28 @@
 
 <div class="row">	
 	<div class="col-12 ">
-		<h5>Cifras de campanha alemãs</h5><br />
+		<h5 style="color: #39CCCC">Cifras de campanha alemãs</h5><br />
 	</div>
 	
 	<div class="col-12 col-md-12">
 		<p class="text-justify">Os alemães sabiam da facilidade de interpretrar mensagens por rádio e desenvolveram novas cifras, a mais famosa era a ADFGVX.</p>
 		<p class="text-justify">Para usar esse padrão, o quadrado de Polibio com seis linhas e seis colunas era utilizado e as letras e números eram espalhados. </p>	
 	</div>	
+	
 	<div class="col-12 col-lg-7">
 		<img src="view/static/images/cifra-de-campanha-alema1.png"  alt="Cifra de Campanha Alemã" class="img-fluid img-thumbnail"><br />	
 		<p>Cifra de Campanha Alemã</p><br />
 	</div>	
+	
 	<div class="col-12 col-md-12">	
 		<p class="text-justify">Para codificar uma mensagem, bastava utilizar as coordenadas de linha e coluna.</p>	
 	</div>	
+	
 	<div class="col-12 col-lg-7">
 		<img src="view/static/images/cifra-de-campanha-alema2.png"  alt="Cifra de Campanha Alemã" class="img-fluid img-thumbnail"><br />	
 		<p>Cifra de Campanha Alemã</p><br />
 	</div>
+	
 	<div class="col-12 col-md-12">
 		<p class="text-justify">ADFGVX foram as letras escolhidas pr serem as mais distintas do código Morse.</p><br />
 	</div>
@@ -130,7 +137,7 @@
 
 <div class="row">	
 	<div class="col-12 ">
-		<h5>Tenente Georges Painvin</h5><br />
+		<h5 style="color: #39CCCC">Tenente Georges Painvin</h5><br />
 	</div>
 	
 	<div class="col-12 col-md-12">	
@@ -141,7 +148,7 @@
 
 <div class="row">	
 	<div class="col-12 ">	
-		<h5>O código de uso único</h5><br />
+		<h5 style="color: #39CCCC">O código de uso único</h5><br />
 	</div> 
 	
 	<div class="col-12 col-md-12">	
@@ -150,7 +157,7 @@
 		<p class="text-justify">O modo de descobrir é supor que a primeira mensagem inteira é formada pela palavra “the”, então pe possível trabalhar de trás para frente e obter uma tentativa de revelar a série de letras aleatórias, onde alguns pequenos fragmentos de palavras poderão surgir, mostrando onde o texto-chave está correto.</p>
 		<p class="text-justify">Se o código de uso único for empregado uma única vez e destruído, possivelmente será indeficrável.</p>
     </div>   
-</div>   
+</div><br /><br />   
 
 <!-- Puzzle -->
 <div class="row">

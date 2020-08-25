@@ -20,7 +20,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>O Rotor</h5><br />
+      <h5 style="color: #39CCCC">O Rotor</h5><br />
   </div>
   <div class="col-7">
     <p class="text-justify">
@@ -92,7 +92,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Elucidação</h5><br />
+      <h5 style="color: #39CCCC">Elucidação</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -112,7 +112,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>O Painel de Conexão</h5><br />
+      <h5 style="color: #39CCCC">O Painel de Conexão</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -136,7 +136,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Procedimentos Padronizados</h5><br />
+      <h5 style="color: #39CCCC">Procedimentos Padronizados</h5><br />
   </div>
   <div class="col-8">
     <p class="text-justify">

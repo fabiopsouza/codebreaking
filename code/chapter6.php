@@ -1,24 +1,27 @@
 <!-- Content -->		
-
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #39CCCC">O Nascimento da Mecanização</h2><br>
+        <h2 style="color: #ce3c41">O Nascimento da Mecanização</h2><br>
 		<p class="text-justify">A mecanização da criptografia começou no século XV com o disco de Alberti. Apesar de, Thomas Jefferson, terceiro presidente americano ter inventado outro sistema no século XVIII. </p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-12">
-		<h5>Discos dentro de discos</h5><br />        
+		<h5 style="color: #ce3c41">Discos dentro de discos</h5><br />        
     </div>	
 	
 	<div class="col-12 col-lg-7">
         <img src="view/static/images/thomas.jpg"  alt="Thomas Jefferson" class="img-fluid img-thumbnail">
 		<p>Thomas Jefferson</p>
-	</div><br />
+	</div><br /><br />
+	
 	<div class="col-12 col-md-12">
 		<p>Thomas Jefferson inventou um simples aparelho mecânico que codificava mensagens durante a Guerra da Independência Americana (1765-1783). Compostos por 36 discos de madeira com letras do alfabeto embaralhadas e com bordas de ordem aleatórias. Os discos eram todos diferentes e o remetente e o destinatário tinham que girá-los até que os eixos fossem alinhados para aparecer a linha da mensagem. </p>
 	</div>	
+</div><br /><br />
+
+<div class="row">	
 	<div class="col-12 col-lg-7">
         <img src="view/static/images/disco-jeferson.png"  alt="Os discos de Jefferson" class="img-fluid img-thumbnail">
 		<p>Os discos de Jefferson</p>
@@ -27,7 +30,7 @@
 
 <div class="row">	
 	<div class="col-12"><br />  
-        <h5>A Cifra de Patterson</h5><br />
+        <h5 style="color: #ce3c41">A Cifra de Patterson</h5><br />
     </div>
 
 	<div class="col-12 col-md-12">	
@@ -37,12 +40,13 @@
 
 <div class="row">	
 	<div class="col-12"><br />  
-        <h5>Claude Chappe</h5><br />
+        <h5 style="color: #ce3c41">Claude Chappe</h5><br />
     </div>
 
 	<div class="col-12 col-md-12">	
 		<p class="text-justify">O inventor Francês Claude Chappe, em 1792, apresentou seu primeiro sistema de telecomunicações da era industrial, o telégrafo óptico, que passou a fazer parte da paisagem da Europa durante quase cinquenta anos. A primeira mensagem oficial a ser enviada por este sistema relatou a recaptura da cidade de Le Quesnoy dos austríacos a prussianos. </p>
 	</div>
+	
 	<div class="col-12 col-lg-7">
 		<img src="view/static/images/telegrama-optico.jpg"  alt="Telegrama Optico" class="img-fluid img-thumbnail"><br />	
 		<p>Telegrama Optico</p>
@@ -51,7 +55,7 @@
 
 <div class="row">		
 	<div class="col-12"><br />  
-        <h5>A Cifra de Wadsworth</h5><br />
+        <h5 style="color: #ce3c41">A Cifra de Wadsworth</h5><br />
     </div>
 	
 	<div class="col-12 col-md-12">	
@@ -61,7 +65,7 @@
 
 <div class="row">		
 	<div class="col-12"><br />  
-        <h5>Joseph Mauborgne (1881 – 1971)</h5><br />
+        <h5 style="color: #ce3c41">Joseph Mauborgne (1881 – 1971)</h5><br />
     </div>
 	
 	<div class="col-12 col-md-12">	
@@ -71,7 +75,7 @@
 
 <div class="row">		
 	<div class="col-12"><br />  
-        <h5>Cilindro de Bazeries</h5><br />
+        <h5 style="color: #ce3c41">Cilindro de Bazeries</h5><br />
     </div>
 	
 	<div class="col-12 col-md-12">	
@@ -81,7 +85,7 @@
 
 <div class="row">	
 	<div class="col-12"><br />  
-        <h5>Conversa em Código</h5><br />
+        <h5 style="color: #ce3c41">Conversa em Código</h5><br />
     </div>
 
 	<div class="col-12 col-md-12">	
@@ -95,7 +99,7 @@
 
 <div class="row">		
 	<div class="col-12"><br />  
-        <h5>Uma chave indecifrável</h5><br />
+        <h5 style="color: #ce3c41">Uma chave indecifrável</h5><br />
     </div>
 	
 	<div class="col-12 col-md-12">	
@@ -105,7 +109,7 @@
 
 <div class="row">	
 	<div class="col-12"><br />  
-        <h5>A cifra de Wheatstone</h5><br />
+        <h5 style="color: #ce3c41">A cifra de Wheatstone</h5><br />
     </div>
 
 	<div class="col-12 col-md-12">	
@@ -119,7 +123,7 @@
 
 <div class="row">	
 	<div class="col-12"><br />  
-        <h5>Código Baudot</h5><br />
+        <h5 style="color: #ce3c41">Código Baudot</h5><br />
     </div>
 
 	<div class="col-12 col-md-12">	

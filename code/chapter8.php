@@ -2,7 +2,7 @@
 
 <div class="row">
   <div class="col-9">
-    <h2 style="color: #39CCCC">A decodificação da Enigma</h2><br>
+    <h2 style="color: #8cc43d">A decodificação da Enigma</h2><br>
     <p class="text-justify">
       Se sentindo ameaçada pelo governo comunista russo, que pregava a revolução mundial, a Polônia empregou um trio de matemáticos para encontrar falhas na Enigma.
     </p>
@@ -14,7 +14,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Espionagem Polonesa</h5><br />
+      <h5 style="color: #8cc43d">Espionagem Polonesa</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -42,7 +42,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Leitura dos Códigos Alemães</h5><br />
+      <h5 style="color: #8cc43d">Leitura dos Códigos Alemães</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -55,7 +55,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Matemáticos</h5><br />
+      <h5 style="color: #8cc43d">Matemáticos</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -65,11 +65,11 @@
       Também notaram que uma mensagem de 06 grupos começada com YPOY foi respondida com uma mensagem de 04 grupos, ou seja:
     </p>
     <div class="form-group">
-      <label class="form-label text-danger">Pergunta</label>
+      <label class="form-label text-success">Pergunta</label>
       <span class="form-control">Quando Frederico, o Grande, nasceu?</span>
     </div>
     <div class="form-group">
-      <label class="form-label text-danger">Resposta</label>
+      <label class="form-label text-success">Resposta</label>
       <span class="form-control">1712</span>
     </div>
   </div>
@@ -81,7 +81,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>A sorte dos Franceses</h5><br />
+      <h5 style="color: #8cc43d">A sorte dos Franceses</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -96,7 +96,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Identificação de um ponto fraco</h5><br />
+      <h5 style="color: #8cc43d">Identificação de um ponto fraco</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -150,7 +150,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>Catalogação dos encadeados</h5><br />
+      <h5 style="color: #8cc43d">Catalogação dos encadeados</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -165,7 +165,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>A bomba</h5><br />
+      <h5 style="color: #8cc43d">A bomba</h5><br />
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -185,7 +185,7 @@
 
 <div class="row">
   <div class="col-12"><br />  
-      <h5>As folhas de Zygalski</h5><br />
+      <h5 style="color: #8cc43d">As folhas de Zygalski</h5><br />
   </div>
   <div class="col-8">
     <p class="text-justify">
