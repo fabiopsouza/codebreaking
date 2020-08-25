@@ -1,7 +1,7 @@
 <!-- Content -->	
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #ce3c41">Escola de Cifras</h2><br>		
+        <h2 style="color: #ce3c41">Capítulo 9 - Escola de Cifras</h2><br>		
     </div>
 </div>
 
