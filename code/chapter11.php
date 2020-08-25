@@ -1,7 +1,7 @@
 <!-- Content -->	
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #39CCCC">Os códigos navais japoneses</h2><br>		
+        <h2 style="color: #39CCCC">Capítulo 11 - Os códigos navais japoneses</h2><br>		
     </div>
 
     <div class="col-12 col-md-12">        
