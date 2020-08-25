@@ -1,7 +1,7 @@
 <!-- Content -->
 <div class="row">
     <div class="col-12">
-        <h2 style="color: #bf3fc8">Anagramas Árabes</h2>
+        <h2 style="color: #bf3fc8">Capítulo 2 - Anagramas Árabes</h2>
     </div>
 </div>
 
