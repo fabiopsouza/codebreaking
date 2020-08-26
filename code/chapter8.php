@@ -1,20 +1,17 @@
 <!-- Content -->		
 
 <div class="row">
-  <div class="col-9">
-    <h2 style="color: #8cc43d">A decodificação da Enigma</h2><br>
+  <div class="col-12">
+    <h2 style="color: #39CCCC">Capítulo 8 - A Decodificação da Enigma</h2>
     <p class="text-justify">
       Se sentindo ameaçada pelo governo comunista russo, que pregava a revolução mundial, a Polônia empregou um trio de matemáticos para encontrar falhas na Enigma.
     </p>
-  </div>  
-  <div class="col-3 text-center">
-    <img src="view/static/images/maquina_enigma.jpg"  alt="Máquina Enigma" class="img-fluid img-thumbnail">
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">Espionagem Polonesa</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">Espionagem Polonesa</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -34,15 +31,16 @@
       que ocasionou na invasão ao país por Adolf Hitler em 1939.
     </p>
   </div>
-  <div class="col-12 mb-3 text-center">
+
+  <div style="max-width: 450px" class="mx-auto d-block text-center mb-3">
     <img src="view/static/images/corredor_polones.jpg"  alt="Corredor Polonês" class="img-fluid img-thumbnail"><br>
-    <small>Figura 1: Corredor Polonês</small>
+    <small class="mx-auto d-block">Figura 1: Corredor Polonês</small>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">Leitura dos Códigos Alemães</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">Leitura dos Códigos Alemães</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -54,8 +52,8 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">Matemáticos</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">Matemáticos</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -64,24 +62,30 @@
       mensagens da marinha alemã, notando que na maioria dos códigos, iniciavam com a letra Y e concluíram que eram perguntas. 
       Também notaram que uma mensagem de 06 grupos começada com YPOY foi respondida com uma mensagem de 04 grupos, ou seja:
     </p>
-    <div class="form-group">
-      <label class="form-label text-success">Pergunta</label>
-      <span class="form-control">Quando Frederico, o Grande, nasceu?</span>
-    </div>
-    <div class="form-group">
-      <label class="form-label text-success">Resposta</label>
-      <span class="form-control">1712</span>
-    </div>
-  </div>
-  <div class="col-12 mb-3 text-center">
-    <img src="view/static/images/matematica_discos_rotativos.gif"  alt="A matemática por trás dos discos rotativos" class="img-fluid img-thumbnail"><br>
-    <small>Figura 2: A matemática por trás dos discos rotativos</small>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">A sorte dos Franceses</h5><br />
+  <div class="col-12 col-lg-5">
+    <div class="form-group">
+      <label class="form-label text-danger">Pergunta</label>
+      <span class="form-control">Quando Frederico, o Grande, nasceu?</span>
+    </div>
+    <div class="form-group">
+      <label class="form-label text-danger">Resposta</label>
+      <span class="form-control">1712</span>
+    </div>
+  </div>
+</div>
+
+<div style="max-width: 700px" class="mx-auto d-block text-center mb-3">
+  <img src="view/static/images/matematica_discos_rotativos.gif"  alt="A matemática por trás dos discos rotativos" class="img-fluid img-thumbnail"><br>
+  <small>Figura 2: A matemática por trás dos discos rotativos</small>
+</div>
+
+<div class="row">
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">A sorte dos Franceses</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -95,8 +99,8 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">Identificação de um ponto fraco</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">Identificação de um ponto fraco</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -115,8 +119,11 @@
       e então começavam a decifrar o corpo da mensagem.
     </p>
   </div>
-  <div class="col-12 mb-3 text-center">
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/VnsTHAH5yAE?feature=oembed"></iframe><br>
+
+  <div class="col-12 mb-3 mx-auto d-block text-center" style="max-width: 450px">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VnsTHAH5yAE?feature=oembed" allowfullscreen></iframe>
+    </div>
     <small>Vídeo: Funcionamento da Máquina Enigma 1</small>
   </div>
   <div class="col-12">
@@ -124,13 +131,12 @@
       Então Rejewski supôs que havia relação entre a primeira e a quarta letras da mensagem, entre a segunda e quinta e a terceira e a 
       sexta, em que a codificação da mesma letra e a relação entre elas refletia a posição inicial dos rotores. 
     </p>
-    <p class="text-justify">
-      Para montar um conjunto completo das relações entre as letras, ele montou uma tabela a partir de mensagens interceptadas no mesmo dia, onde: 
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- a primeira letra (A) podia estar ligada à quarta letra (P),<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;- a primeira letra (P) podia estar ligada à quarta letra (F),<br> 
-      &nbsp;&nbsp;&nbsp;&nbsp;- então a primeira letra (F) estava ligada à quarta letra (A), levando o encadeamento de volta ao início.
-    </p>
+    <p class="text-justify">Para montar um conjunto completo das relações entre as letras, ele montou uma tabela a partir de mensagens interceptadas no mesmo dia, onde:</p>
+    <ul>
+      <li>a primeira letra (A) podia estar ligada à quarta letra (P);</li>
+      <li>a primeira letra (P) podia estar ligada à quarta letra (F);</li>
+      <li>então a primeira letra (F) estava ligada à quarta letra (A), levando o encadeamento de volta ao início.</li>
+    </ul>
     <p class="text-justify">
       Esses encadeamentos em todas as letras que surgiam nas 1ª e 4ª, 2ª e 5ª e na 3ª e 6ª posições. Elas mudavam todo dia, as vezes os encadeamentos 
       eram longos com vários elos, as vezes curtos com poucos elos. O número de elos e de encadeamentos dependiam da ordem dos rotores e da chave do dia. 
@@ -142,15 +148,16 @@
       sexta, em que a codificação da mesma letra e a relação entre elas refletia a posição inicial dos rotores. 
     </p>
   </div>
-  <div class="col-12 mb-3 text-center">
+
+  <div style="max-width: 500px" class="mx-auto d-block text-center mb-3">
     <img src="view/static/images/enigma_codebreakers.jpg"  alt="Monumento aos decifradores da Enigma" class="img-fluid img-thumbnail"><br>
     <small>Figura 3: Monumento aos decifradores da Enigma (Poznan)</small>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">Catalogação dos encadeados</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">Catalogação dos encadeados</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -164,8 +171,8 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">A bomba</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">A bomba</h5>
   </div>
   <div class="col-12">
     <p class="text-justify">
@@ -184,10 +191,10 @@
 </div>
 
 <div class="row">
-  <div class="col-12"><br />  
-      <h5 style="color: #8cc43d">As folhas de Zygalski</h5><br />
+  <div class="col-12">  
+      <h5 style="color: #39CCCC">As folhas de Zygalski</h5>
   </div>
-  <div class="col-8">
+  <div class="col-12 col-sm-8">
     <p class="text-justify">
       As repetições percebidas por Rejewski, eram chamadas de fêmeas, significando que uma letra repetida no código da mensagem, fora transposta para a 
       mesma letra do texto cifrado, mesmo com os rotores três passos a frente, o que acontecia com determinados ajustes iniciais. Isso foi catalogado pelos poloneses.
@@ -198,15 +205,15 @@
       onde a configuração do rotor produzia uma fêmea.
     </p>
   </div>
-  <div class="col-4 mb-3 text-center">
+  <div class="col-12 col-sm-4 mb-3 text-center">
     <img src="view/static/images/folhas_zygalski.jpg"  alt="As folhas de Zygalski" class="img-fluid img-thumbnail"><br>
     <small>Figura 4: As folhas de Zygalski</small>
   </div>
-  <div class="col-4 mb-3 text-center">
+  <div class="col-12 col-sm-4 mb-3 text-center">
     <img src="view/static/images/maquina_enigma_esquema.jpg"  alt="Máquina Enigma" class="img-fluid img-thumbnail"><br>
     <small>Figura 5: Máquina Enigma</small>
   </div>
-  <div class="col-8">
+  <div class="col-12 col-sm-8">
     <p class="text-justify">
       Se as folhas fossem superpostas e movidas na sequência e na maneira adequada umas às outras, o número de aberturas visíveis reduzia gradativamente 
       e se tivesse quantidade suficiente de dados, restaria uma única abertura correspondendo ao caso correto. Da posição da abertura, era possível 
@@ -232,28 +239,21 @@
 
 <!-- Puzzle -->
 <div class="row">
-	<div class="col-12">
+	<div class="col-12 col-lg-6">
 		<div class="card">
 			<div class="card-body">
-				<div class="col-12"><br />  
-					<h5>Enigma</h5><br />
+				<div class="col-12">  
+					<h5>Enigma</h5>
 				</div>
-				<div class="col-12 col-md-12">
-					<p class="font-weight-bold">Agora, você faz parte do exercito alemão, e precisa enviar uma mensagem para o outro pelotão alemão.
-					(Anote sua mensagem criptografada para o próximo capitulo)</p>				                					
-					<!--<p class="text-justify">Mensagem escrita com Código Morse:</p>				-->
-					<img src="view/static/images/maquina-enigma.jpeg" alt="Máquina Enigma" class="img-thumbnail rounded"><br />
-					
-					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
-					
-					<div class="input-group mb-3" style="max-width: 500px">				
-						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
+				<div class="col-12">
+					<div class="input-group mb-3" style="max-width: 500px">
+						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
 						<div class="input-group-append">
 							<button class="btn btn-success" onclick="return checkPasswordChapter(9, this)" type="button" id="button-addon2">Verificar</button>
 						</div>
-					</div>					
+					</div>				
 				</div>
 			</div>
 		</div>
 	</div>
-</div><br /> 
+</div>
