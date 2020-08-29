@@ -131,6 +131,86 @@
                                         <p class="description">A mecanização da criptografia começou no século XV com o disco de Alberti...</p>
                                     </a>
                                 </div>
+								<div class="timeline">
+                                    <a href="#section-cap7" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 7</span>
+                                        <span class="year d-block d-xl-none">Cap 7</span>
+                                        <h3 class="title">A criação da Enigma</h3>
+                                        <p class="description">A criação do enigma - O engenheiro elétrico Arthur Scherbius, requereu em 1918...</p>
+                                    </a>
+                                </div>
+                                <div class="timeline">
+                                    <a href="#section-cap8" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 8</span>
+                                        <span class="year d-block d-xl-none">Cap 8</span>
+                                        <h3 class="title">A decodificação da Enigma</h3>
+                                        <p class="description">Se sentindo ameaçada pelo governo comunista russo, que pregava a revolução...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap9" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 9</span>
+                                        <span class="year d-block d-xl-none">Cap 9</span>
+                                        <h3 class="title">Escola de Cifras</h3>
+                                        <p class="description">Criada em 1919, no inicio sobre os cuidados do almirantado e depois para o...</p>
+                                    </a>
+                                </div>								
+								<div class="timeline">
+                                    <a href="#section-cap10" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 10</span>
+                                        <span class="year d-block d-xl-none">Cap 10</span>
+                                        <h3 class="title">Vermelho Roxo</h3>
+                                        <p class="description">Em 1923, um oficial da Marinha dos Estados Unidos adquiriu uma cópia...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap11" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 11</span>
+                                        <span class="year d-block d-xl-none">Cap 11</span>
+                                        <h3 class="title">Os códigos navais japoneses</h3>
+                                        <p class="description">A intensão dos japoneses era atacar os EUA. A informação era baseada nas mensagens que...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap12" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 12</span>
+                                        <span class="year d-block d-xl-none">Cap 12</span>
+                                        <h3 class="title">A criptologia volta a atacar</h3>
+                                        <p class="description">Disseram ao povo americano que o ataque surpresa a Pearl Harbor foi um “fracasso do serviço de...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap13" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 13</span>
+                                        <span class="year d-block d-xl-none">Cap 13</span>
+                                        <h3 class="title">Criptoanálise computadorizada</h3>
+                                        <p class="description">Decifrar a Enigma garantiu a vitória da grã-bretanha no atlântico, mas para vencer a guerra é...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap14" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 14</span>
+                                        <span class="year d-block d-xl-none">Cap 14</span>
+                                        <h3 class="title">A História da Quebra dos Códigos Secretos</h3>
+                                        <p class="description">A História da Quebra dos Códigos Secretos códigos de uso único, lugares para deixar mensagens...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap15" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 15</span>
+                                        <span class="year d-block d-xl-none">Cap 15</span>
+                                        <h3 class="title">Os Computadores Assumem o Controle</h3>
+                                        <p class="description">O que é possível afirmar é que após a bomba de Turing, criptógrafos na busca por cifras cada vez...</p>
+                                    </a>
+                                </div>
+								<div class="timeline">
+                                    <a href="#section-cap16" class="timeline-content">
+                                        <span class="year d-none d-xl-block">Capítulo 16</span>
+                                        <span class="year d-block d-xl-none">Cap 16</span>
+                                        <h3 class="title">O Fim da Decodificação que Conhecemos?</h3>
+                                        <p class="description">A afirmação acima, é devido a maioria das pessoas utilizarem celulares, cuja câmera, microfone e...</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

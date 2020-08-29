@@ -68,7 +68,7 @@
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-success" onclick="return checkPasswordChapter(14, this)" type="button" id="button-addon2">Verificar</button>
+                        <button class="btn btn-success" onclick="return checkPasswordChapter(15, this)" type="button" id="button-addon2">Verificar</button>
                     </div>
                 </div>
             </div>
