@@ -5,12 +5,15 @@ async function loadProgressUser(){
     const progress = localStorage.getItem('currentChapter')
         ? localStorage.getItem('currentChapter')
         : 1
-
-    for(i = 2; i <= progress; i++){
+  
+    if(progress == 16)
+        _hideSectionReadingMode()
+  
+    for(i = 2; i <= progress; i++)
         await _releaseChapter(i)
-    }
+    
     _hideAllInputsPuzzlesFromUserProgress()
-}
+  }
 
 /**
  * Compara a senha inserida pelo usuario, com a senha do capítulo
@@ -23,12 +26,31 @@ async function checkPasswordChapter(numberChapter, buttonElement){
     const passwordChapter = chapterData.password.toLowerCase()
     if(passwordChapter === userPasswordChapter){
         _hideInputPuzzle(buttonElement.parentNode.parentNode)
+
+        if(numberChapter == 16)
+        _hideSectionReadingMode()
+
         await _releaseChapter(numberChapter)
         _alertResult(true)
         localStorage.setItem('currentChapter', numberChapter)
     }else{
         _alertResult(false)
     }
+}
+/**
+ * Pula todos os 15 enigmas, assim, liberando todos os capítulos
+ */
+function skipAllPuzzles(){
+    localStorage.setItem('currentChapter', 16)
+    location.reload();
+}
+
+/**
+ * Esconde campo onde o usuário pode ativar a opção somente leitura do site
+ */
+function _hideSectionReadingMode(){
+    const section = document.querySelector('#section-reading-mode')
+    section.style.display = "none"
 }
 
 /**
