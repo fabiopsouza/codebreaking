@@ -54,6 +54,22 @@ function _hideSectionReadingMode(){
 }
 
 /**
+ * Pula o enigma selecionado, chama a liberação do próximo capítulo
+ * @param {Number} numberChapter 
+ * @param {HTMLElement} buttonElement Elemento do botão na página do capítulo que contém o enigma
+ */
+async function skipOnePuzzle(numberChapter, buttonElement){
+    _hideInputPuzzle(buttonElement.parentNode.parentNode)
+        
+    if(numberChapter == 16)
+        _hideSectionReadingMode()
+    
+    await _releaseChapter(numberChapter)
+    _alertResult(true, "Enigma pulado com sucesso!")
+    localStorage.setItem('currentChapter', numberChapter)
+  }
+
+/**
  * Responsável por exibir todo o HTML do capítulo escolhido
  * @param {Number} numberChapter 
  * @return {Promise}
@@ -132,12 +148,18 @@ function _hideAllInputsPuzzlesFromUserProgress(){
 /**
  * Avisar o usuário se acertou ou se errou a senha do puzzle
  * @param {Boolean} status true se o usuário inseriu a senha corretamente, false se não
+ * @param {String} message mensagem personalizada para mostrar no alert
  */
-function _alertResult(status){
-    const statusPositive = status === true
-    const result = statusPositive 
-        ? "senha correta, próximo capítulo liberado!"
-        : "senha incorreta"
-        
+function _alertResult(status, message = null){
+    let result = "";
+  
+    if(!message){
+        const statusPositive = status === true
+        result = statusPositive 
+            ? "senha correta, próximo capítulo liberado!"
+            : "senha incorreta"
+    }else{
+        result = message;
+    }
     alert(result)
-}
+  }
