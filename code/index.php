@@ -22,13 +22,15 @@
         <!-- Timeline -->
         <link rel="stylesheet" href="view/static/css/timeline/timeline.css">
 
+        <!-- Custom -->
+        <link rel="stylesheet" href="src/styles/indexPage.css" />
+
         <!-- Fonts -->
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     </head>
 
     <body>
-
         <!-- ======= Header ======= -->
         <header id="header" class="fixed-top">
             <div class="container d-flex align-items-center">
@@ -76,6 +78,19 @@
         </section><!-- End Hero -->
 
         <main id="main">
+
+            <!-- ======= Section Reading Mode ======= -->
+            <section id="section-reading-mode">
+                <div class="container" data-aos="fade-up">
+                    <p>Deseja desbloquear todos os enigmas, e realizar apenas a leitura no site?</p>
+                    <button 
+                        class="btn btn-success" 
+                        onClick="skipAllPuzzles()"
+                    >
+                        Sim, quero somente realizar a leitura
+                    </button>
+                </div>
+            </section>
 
             <!-- ======= Section Timeline ======= -->
             <section id="section-timeline">
