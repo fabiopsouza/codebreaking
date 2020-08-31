@@ -21,9 +21,9 @@ async function loadProgressUser(){
  * @param {HTMLElement} buttonElement Elemento do botão na página do capítulo que contém o enigma
  */
 async function checkPasswordChapter(numberChapter, buttonElement){
-    const userPasswordChapter = buttonElement.parentNode.parentNode.childNodes[1].value
+    const userPasswordChapter = buttonElement.parentNode.parentNode.childNodes[1].value.toLowerCase()
     const chapterData = await _getDataOfAChapter(numberChapter)
-    const passwordChapter = chapterData.password.toLowerCase()
+    const passwordChapter = chapterData.password
     if(passwordChapter === userPasswordChapter){
         _hideInputPuzzle(buttonElement.parentNode.parentNode)
 
