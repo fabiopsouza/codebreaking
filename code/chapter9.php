@@ -130,41 +130,47 @@
 
 <!-- Puzzle -->
 <div class="row">
-	<div class="col-12">
-		<div class="card">
-			<div class="card-body">
-				<div class="col-12"><br />  
-					<h5>Enigma</h5><br />
-				</div>
-				
-				<div class="col-12 col-md-12">
-					<p class="text-justify">Você recebeu a recebeu a mensagem do outro pelotão, descriptografe para ler a mensagem. Porém não sabemos quando a mensagem foi enviada nas ultimas semanas para podermos configurar os plugins, por favor testes os plugins para descobrir qual deles tratam a mensagem correta.</p>				                					
-				</div>	
-				
-				<div class="col-12"><br />  
-					<h5>Plugins:</h5><br />
-				</div>
-				
-				<div class="col-12 col-md-12">
-					<p class="text-justify">"3 Semanas atrás : Letra D e I - Z e H",</p>
-                    <p class="text-justify">"2 Semanas atrás : Letra G e M - Y e L",</p>
-                    <p class="text-justify">"Semana anterior: Letra P e B  -  F e R"</p><br />
-					
-					<img src="view/static/images/maquina-enigma.jpeg" alt="Máquina Enigma" class="img-thumbnail rounded"><br />
-					
-					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
-					
-					<div class="input-group mb-3" style="max-width: 500px">				
-						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
-						<div class="input-group-append">
-							<button class="btn btn-success" onclick="return checkPasswordChapter(10, this)" type="button" id="button-addon2">Verificar</button>
-							<button class="btn btn-info" onclick="return skipOnePuzzle(10, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-	</div>
-</div><br />
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="col-12"><br />  
+          <h5>Enigma</h5><br />
+        </div>
+        <div class="col-12 col-md-12">
+          <p>
+            Você recebeu a recebeu a mensagem do outro pelotão, descriptografe para ler a mensagem, porém, não sabemos quando a mensagem foi enviada nas últimas semanas para podermos configurar os plugs, por favor teste os plugs para descobrir qual deles tratam a mensagem correta.
+          </p>
+          <p>
+            <b>Rotores:</b>
+            <ul> 
+              <li>Setting 5</li>
+              <li>Setting 1</li>
+              <li>Setting 2</li>
+            </ul>
+            <b>Plug:</b>
+            <ul> 
+              <li>3 Semanas atrás: Letra D e I - Z e H</li>
+              <li>2 Semanas atrás: Letra G e M - Y e L</li>
+              <li>Semana anterior: Letra P e B</li>
+            </ul>
+          </p>
+
+          <h5>Frase criptografada: <span style="color: red">BNITWQJZGG</span></h5>
+
+          <iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe>
+
+          <p>Coloque aqui a mensagem traduzida.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-success" onclick="return checkPasswordChapter(10, this)" type="button" id="button-addon2">Verificar</button>
+              <button class="btn btn-info" onclick="return skipOnePuzzle(10, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><br /> 
  
 
