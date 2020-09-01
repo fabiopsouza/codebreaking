@@ -1,0 +1,13 @@
+#section-reading-mode {
+  background: rgb(248, 245, 245);
+}
+
+#section-reading-mode .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#section-reading-mode .container p {
+  font-size: 1.4rem;
+}

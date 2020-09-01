@@ -109,20 +109,33 @@
 </div>
 
 <!-- Puzzle -->
-<div class="row mt-3">
-    <div class="col-12 col-md-10 col-lg-6">
-        <div class="card">
-            <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" onclick="return checkPasswordChapter(13, this)" type="button" id="button-addon2">Verificar</button>
-                    </div>
-                </div>
+<div class="row">
+	<div class="col-12">
+		<div class="card">
+			<div class="card-body"><br />  
+					<h5>Enigma</h5><br />
+				</div>
+				
+                <div class="col-12 col-md-12">                
+					<p class="text-justify"><strong>Decifre a mensagem</strong></p>
+					<p class="text-justify">Palavra chave: <strong>visxunifohue</strong></p>
+					<p class="text-justify">Mensagen Transmitida: <strong>nexzayitanaa</strong></p>
+					<p class="text-justify">Usando as tabelas abaixo encontre a mensagem original:</p>
+					
+					<img src="view/static/images/Quadro_1.png" alt="Tabela 1" class="img-thumbnail rounded"><br />
+					<img src="view/static/images/Quadro_2.png" alt="Tabela 2" class="img-thumbnail rounded"><br />
+				    
+					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
+					
+					<div class="input-group mb-3" style="max-width: 500px">				
+						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(13, this)" type="button" id="button-addon2">Verificar</button>
+							<button class="btn btn-info" onclick="return skipOnePuzzle(13, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
     </div>
-</div>
+</div><br />
