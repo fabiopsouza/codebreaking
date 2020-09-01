@@ -73,9 +73,10 @@
                     <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
                     <div class="input-group-append">
                         <button class="btn btn-success" onclick="return checkPasswordChapter(2, this)" type="button" id="button-addon2">Verificar</button>
+                        <button class="btn btn-info" onclick="return skipOnePuzzle(2, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
                     </div>
                 </div>
-
+                
                 <img class="img-fluid img-thumbnail rounded" src="view/static/images/hieroglifos.jpeg" alt="Hieroglifos">
             </div>
         </div>

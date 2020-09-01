@@ -158,6 +158,7 @@
 						<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Recipient's username" aria-describedby="button-addon2">
 						<div class="input-group-append">
 							<button class="btn btn-success" onclick="return checkPasswordChapter(10, this)" type="button" id="button-addon2">Verificar</button>
+							<button class="btn btn-info" onclick="return skipOnePuzzle(10, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
 						</div>
 					</div>					
 				</div>
