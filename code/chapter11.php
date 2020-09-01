@@ -120,19 +120,13 @@
 				</div>
 				
 				<div class="col-12 col-md-12">
-					<p class="text-justify">Você recebeu a recebeu a mensagem do outro pelotão, descriptografe para ler a mensagem. Porém não sabemos quando a mensagem foi enviada nas ultimas semanas para podermos configurar os plugins, por favor testes os plugins para descobrir qual deles tratam a mensagem correta.</p>				                					
-				</div>	
-				
-				<div class="col-12"><br />  
-					<h5>Plugins:</h5><br />
-				</div>
-				
-				<div class="col-12 col-md-12">
-					<p class="text-justify">"3 Semanas atrás : Letra D e I - Z e H",</p>
-                    <p class="text-justify">"2 Semanas atrás : Letra G e M - Y e L",</p>
-                    <p class="text-justify">"Semana anterior: Letra P e B  -  F e R"</p><br />
+					<p class="text-justify"><strong>Decifre a mensagem</strong></p>
+					<p class="text-justify">Palavra chave: <strong>ticogyexekomiluaqa</strong></p>
+					<p class="text-justify">Mensagen Transmitida: <strong>mufinjaqifuzoniute</strong></p>
+					<p class="text-justify">Usando as tabelas abaixo encontre a mensagem original:</p>
 					
-					<img src="view/static/images/maquina-enigma.jpeg" alt="Máquina Enigma" class="img-thumbnail rounded"><br />
+					<img src="view/static/images/Quadro_1.png" alt="Tabela 1" class="img-thumbnail rounded"><br />
+					<img src="view/static/images/Quadro_2.png" alt="Tabela 2" class="img-thumbnail rounded"><br />
 					
 					<br/><p class="text-justify"><strong>Traduza a mensagem:</strong></p>				
 					

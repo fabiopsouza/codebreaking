@@ -13,15 +13,9 @@
 
         <p class="text-justify">Neste meio tempo, os Árabes davam passos largos quanto aos estudos da criptoanálise. Já os europeus ainda usavam cifras simples de substituição monoalfabética. No século XVI, surgiu na Europa, o primeiro grande decodificador decifrado pelo secretário de cifras do Conselho dos Dez, Giovanni Soro. Soro ficou famoso pela decifração para o Conselho e sua fama se espalhou por toda a Itália. Ele foi contratado pelo papa para destrinchar códigos que seu analista não conseguia decifrar. Certa vez, uma mensagem papal chegou até os florentinos e o papa Clemente VII encaminhou uma cópia a Soro que afirmou não conseguir decifrar, pois Soro não gostava da ideia de que o Vaticano inventasse códigos mais complexos e seguros que os seus. Philibert Babou (1484-1557), Francês, decifrador de Francisco I, trabalhava arduamente ilustrando cifras, pois a França também gostaria de espionar as atividades secretas dos rivais.</p>
     </div>
-
     <div class="col-12 col-md-4">
-        <div class="portfolio-details-container">
-
-            <div class="owl-carousel portfolio-details-carousel">
-                <img src="view/static/images/disco-de-alberti.jpg" class="img-fluid" alt="">
-                <img src="view/static/images/disco-de-alberti.jpg" class="img-fluid" alt="">
-                <img src="view/static/images/disco-de-alberti.jpg" class="img-fluid" alt="">
-            </div>
+       <div style="max-width: 450px" class="mx-auto d-block">
+            <img src="view/static/images/disco-de-alberti.jpg" class="img-fluid img-thumbnail rounded" alt="">
         </div>
     </div>
 </div>
@@ -36,15 +30,9 @@
     <div class="col-12 col-md-8">
         <p class="text-justify">Na Inglaterra, a decifração ocasionou a queda da rainha Maria da Escócia. Maria se refugiou na Inglaterra, após fugir de sua terra natal em 1568, mas foi presa pela rainha Elizabeth I. Em 1586, Anthony Babington começou a conspirar para libertar Maria e assassinar Elizabeth. Começaram a saquear as cartas de Maria na tampa oca de um barril de cerveja, onde as cartas chegavam em códigos e eram representados em 23 símbolos do alfabeto, exceto “I”, “v” e “w”. Entretanto, havia quatro símbolos nulos que não representavam absolutamente nada, e serviam apenas para confundir quem tentasse decifrá-la. Gilberto Gifford, conspirador responsável por entregar as cartas à Sir Francis Walsingham, principal secretário e espião-mor da rainha Elizabeth. Walsingham aprendera o trabalho com o criptoanalista Philip Van Marnix, secretário de cifras de Guilherme Orange. Em 1577, Marnix decifrou uma carta de Felipe da Espanha que programava plano para invadir a Inglaterra.</p>
     </div>
-
-    <div class="col-12 col-md-4">
-        <div class="portfolio-details-container">
-
-            <div class="owl-carousel portfolio-details-carousel">
-                <img src="view/static/images/alberti.png" class="img-fluid" alt="">
-                <img src="view/static/images/alberti.png" class="img-fluid" alt="">
-                <img src="view/static/images/alberti.png" class="img-fluid" alt="">
-            </div>
+     <div class="col-12 col-md-4">
+       <div style="max-width: 450px" class="mx-auto d-block">
+            <img src="view/static/images/alberti.png" class="img-fluid img-thumbnail rounded" alt="">
         </div>
     </div>
 </div>
