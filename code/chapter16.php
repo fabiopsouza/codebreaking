@@ -82,22 +82,3 @@
         </div>
     </div>
 </div>
-<div class="row">
-	<div class="col-12">
-		<div class="card">
-			<div class="card-body">
-				<div class="col-12">  
-					<h5>Enigma</h5>
-				</div>
-				<div class="col-12">
-					<div class="input-group mb-3" style="max-width: 500px">
-						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
-						<div class="input-group-append">
-							<button class="btn btn-success" type="button" id="button-addon2">Verificar</button>
-						</div>
-					</div>				
-				</div>
-			</div>
-		</div>
-	</div>
-</div>

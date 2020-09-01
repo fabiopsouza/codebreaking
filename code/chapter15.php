@@ -90,7 +90,8 @@
 						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
 						<div class="input-group-append">
 							<button class="btn btn-success" onclick="return checkPasswordChapter(16, this)" type="button" id="button-addon2">Verificar</button>
-						</div>
+                            <button class="btn btn-info" onclick="return skipOnePuzzle(16, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+                        </div>
 					</div>				
 				</div>
 			</div>
