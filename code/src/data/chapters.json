@@ -63,19 +63,19 @@
             "title": "A decodificação da Enigma",
             "color": "#39CCCC",
             "number": 11,
-            "password": "senha"
+            "password": "romanji"
         },
 		{
             "title": "A decodificação da Enigma",
             "color": "#39CCCC",
             "number": 12,
-            "password": "senha"
+            "password": "higashinonokazeame"
         },
         {
             "title": "Criptoanálise Computadorizada",
             "color": "#39CCCC",
             "number": 13,
-            "password": "senha"
+            "password": "koryakubutai"
         },
         {
             "title": "Criptografia na Guerra Fria",
