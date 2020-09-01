@@ -67,24 +67,33 @@
     <div class="mx-auto d-block">
         <img src="view/static/images/grafos.png"  alt="Lorenz" class="img-fluid img-thumbnail rounded">
     </div>
-</div>
+</div><br /><br /> 
 
 <!-- Puzzle -->
 <div class="row mt-3">
     <div class="col-12 col-md-10 col-lg-6">
         <div class="card">
             <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" onclick="return checkPasswordChapter(14, this)" type="button" id="button-addon2">Verificar</button>
-                        <button class="btn btn-info" onclick="return skipOnePuzzle(14, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				<h5>Enigma</h5>			
+				
+				<p class="text-justify"> Qual o nome da máquina que foi decodificada pela Colossus?</p>
+				<p class="text-justify"><strong>Utilize a tabela de Vigenére para descobrir a resposta.</strong></p>
+				
+				<p class="text-justify">Resposta Codificada: RIVVEZ</p>
+				<p class="text-justify">Chave: GUERRA</p>
+				
+				<img src="view/static/images/tabela_comunista.png" class="img-fluid img-thumbnail mb-3">								
+									
+				<p class="text-justify">Coloque aqui a mensagem traduzida.</p>
+				
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's message" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-success" onclick="return checkPasswordChapter(14, this)" type="button" id="button-addon2">Verificar</button>
+						<button class="btn btn-info" onclick="return skipOnePuzzle(14, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

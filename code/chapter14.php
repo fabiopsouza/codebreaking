@@ -56,23 +56,31 @@
         <p class="text-justify">O texto cifrado final era transcrito verticalmente. Para torna-lo ainda mais indecifrável, um número arbitrário de cinco algarismos era acrescentado ao início da disjunção da chave.</p>
     </div>
 </div>
-
+ 
 <!-- Puzzle -->
 <div class="row mt-3">
     <div class="col-12 col-md-10 col-lg-6">
         <div class="card">
             <div class="card-body">
-
-                <h5>Enigma</h5>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" onclick="return checkPasswordChapter(15, this)" type="button" id="button-addon2">Verificar</button>
-                        <button class="btn btn-info" onclick="return skipOnePuzzle(15, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+				<h5>Enigma</h5>			
+				
+				<p class="text-justify"> Usando a Tabela com células vazias, usada pelos comunistas na guerra fria, traduza a mensagem:</p>
+				<p class="text-justify"><strong>Chave:</strong></p>
+				
+				<p class="text-justify">17 26 18 9 9 0 9 15 18</p>
+				
+				<img src="view/static/images/tabela_comunista.png" class="img-fluid img-thumbnail mb-3">								
+									
+				<p class="text-justify">Coloque aqui a mensagem traduzida.</p>
+				
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's message" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-success" onclick="return checkPasswordChapter(15, this)" type="button" id="button-addon2">Verificar</button>
+						<button class="btn btn-info" onclick="return skipOnePuzzle(15, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
