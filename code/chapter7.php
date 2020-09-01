@@ -170,19 +170,43 @@
 
 <!-- Puzzle -->
 <div class="row">
-	<div class="col-12 col-lg-6">
+	<div class="col-12">
 		<div class="card">
-			<div class="card-body">
-				<div class="col-12">  
-					<h5>Enigma</h5>
+    <div class="card-body">
+				<div class="col-12"><br />  
+					<h5>Enigma</h5><br />
 				</div>
-				<div class="col-12">
-					<div class="input-group mb-3" style="max-width: 500px">
-						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
-						<div class="input-group-append">
-							<button class="btn btn-success" onclick="return checkPasswordChapter(8, this)" type="button" id="button-addon2">Verificar</button>
-						</div>
-					</div>				
+				<div class="col-12 col-md-12">
+					<p>
+            Agora, você faz parte do exército alemão, e precisa enviar uma mensagem para o outro pelotão alemão. <br>
+            Utilize a máquina enigma virtual e configure seguindo as intruções abaixo.<br>
+          </p>
+          <p>
+            <b>Rotores:</b>
+            <ul> 
+              <li>Setting 1</li>
+              <li>Setting 3</li>
+              <li>Setting 5</li>
+            </ul>
+		      	<b>Plug:</b>
+            <ul> 
+              <li>Letra D e I</li>              
+            </ul>
+		      	<b>Mensagem a ser criptografada:</b>
+            <ul> 
+              <li>RECUAR TROPAS</li>
+            </ul>
+          </p>
+
+          <iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe>
+
+          <p>Coloque aqui a mensagem criptografada.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Mensagem Criptografada" aria-label="Mensagem Criptografada" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-success" onclick="return checkPasswordChapter(8, this)" type="button" id="button-addon2">Verificar</button>
+            </div>
+          </div>
 				</div>
 			</div>
 		</div>
