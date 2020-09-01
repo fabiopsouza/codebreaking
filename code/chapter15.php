@@ -79,35 +79,29 @@
     </div>
 </div><br /><br />
 
-<div class="row">
-	<div class="col-12">
-		<div class="card">
-			<div class="card-body">
-				<div class="col-12">  
-					<h5>Enigma</h5>
-				</div><br />
+<!-- Puzzle -->
+<div class="row mt-3">
+    <div class="col-12 col-md-10 col-lg-6">
+        <div class="card">
+            <div class="card-body">
+				<h5>Enigma</h5>			
 				
-				<div class="col-12">
-					<p class="text-justify"> Usando a Tabela com células vazias, usada pelos comunistas na guerra fria, traduza a mensagem:</p>
-					
-						<p class="text-justify"><strong>Chave:</strong></p>
-							<p class="text-justify">6 9 18 11 27 5 17 9 18 0 15 18</p>
-						
-						<img src="view/static/images/tabela_comunista.png" class="img-fluid img-thumbnail mb-3">
-						
-					
-					<br>	
-					<p class="text-justify">Coloque aqui a mensagem traduzida.</p>
-					<div class="input-group mb-3" style="max-width: 500px">
-						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's message" aria-describedby="button-addon2">
-							
-							<div class="input-group-append">
-								<button class="btn btn-success" onclick="return checkPasswordChapter(16, this)" type="button" id="button-addon2">Verificar</button>
-								<button class="btn btn-info" onclick="return skipOnePuzzle(16, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-							</div>
+				<p class="text-justify"> Usando a Tabela com células vazias, usada pelos comunistas na guerra fria, traduza a mensagem:</p>
+				<p class="text-justify"><strong>Chave:</strong></p>
+				
+				<p class="text-justify">6 9 18 11 27 5 17 9 18 0 15 18</p>
+				
+				<img src="view/static/images/tabela_comunista.png" class="img-fluid img-thumbnail mb-3">								
+									
+				<p class="text-justify">Coloque aqui a mensagem traduzida.</p>
+				
+				<div class="input-group mb-3">
+					<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's message" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-success" onclick="return checkPasswordChapter(16, this)" type="button" id="button-addon2">Verificar</button>
+						<button class="btn btn-info" onclick="return skipOnePuzzle(16, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
 					</div>				
 				</div>
-				
 			</div>
 		</div>
 	</div>
