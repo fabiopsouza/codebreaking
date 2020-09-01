@@ -67,7 +67,7 @@
     <div class="mx-auto d-block">
         <img src="view/static/images/grafos.png"  alt="Lorenz" class="img-fluid img-thumbnail rounded">
     </div>
-</div><br /><br />
+</div><br /><br /> 
 
 <!-- Puzzle -->
 <div class="row mt-3">

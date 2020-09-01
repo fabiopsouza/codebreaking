@@ -56,7 +56,7 @@
         <p class="text-justify">O texto cifrado final era transcrito verticalmente. Para torna-lo ainda mais indecifrável, um número arbitrário de cinco algarismos era acrescentado ao início da disjunção da chave.</p>
     </div>
 </div>
-
+ 
 <!-- Puzzle -->
 <div class="row mt-3">
     <div class="col-12 col-md-10 col-lg-6">

@@ -77,7 +77,7 @@
             <small>Assimétrica</small>
         </div>
     </div>
-</div><br /><br />
+</div><br /><br /> 
 
 <!-- Puzzle -->
 <div class="row mt-3">
