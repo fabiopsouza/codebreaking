@@ -115,9 +115,18 @@
             <div class="card-body">
 
                 <h5>Enigma</h5>
-
+				
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+                
+					<p class="text-justify"><strong>Decifre a mensagem</strong></p>
+					<p class="text-justify">Palavra chave: <strong>visxunifohue</strong></p>
+					<p class="text-justify">Mensagen Transmitida: <strong>nexzayitanaa</strong></p>
+					<p class="text-justify">Usando as tabelas abaixo encontre a mensagem original:</p>
+					
+					<img src="view/static/images/Quadro_1.png" alt="Tabela 1" class="img-thumbnail rounded"><br />
+					<img src="view/static/images/Quadro_2.png" alt="Tabela 2" class="img-thumbnail rounded"><br />
+
+				<input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
                     <div class="input-group-append">
                         <button class="btn btn-success" onclick="return checkPasswordChapter(13, this)" type="button" id="button-addon2">Verificar</button>
                         <button class="btn btn-info" onclick="return skipOnePuzzle(13, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
