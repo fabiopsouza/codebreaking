@@ -17,13 +17,8 @@
     </div>
 
     <div class="col-12 col-md-4">
-        <div class="portfolio-details-container">
-
-            <div class="owl-carousel portfolio-details-carousel">
-                <img src="view/static/images/anagram.jpeg" class="img-fluid" alt="">
-                <img src="view/static/images/anagram.jpeg" class="img-fluid" alt="">
-                <img src="view/static/images/anagram.jpeg" class="img-fluid" alt="">
-            </div>
+       <div style="max-width: 450px" class="mx-auto d-block">
+            <img src="view/static/images/anagram.jpeg" class="img-fluid img-thumbnail rounded" alt="">
         </div>
     </div>
 </div>
