@@ -43,7 +43,7 @@
 	
 	<div class="col-12 col-md-12">	
 		 <p class="text-justify">Gordon Welchman, matematico que pensou em um meio de acelerar o processo, o Tabuleiro diagonal, produzindo um tabuleiro 676 contatos marcados com A a Z e entao a ligar todas as combinaçoes reciprocas possiveis, pois quando R era testada como D, o D precisava se tornar R, com isso reduzindo o numero de paradas erradas. Turing percebeu que isso permitia realizar testes simultaneos.</p>
-         <p class="text-justify">Durante toda a batalha da gra-bretania de julho de 1940 a equipe de Bletchley Park decifrou os codigos da equipe aerea alema e passou as informaçoes para os caças, entretando decifrar o codigo da marinha alema estva muito lento e os submarinos estavam atacando navios aliados privando a ilha de recursos como alimento e munição.</p><br />                 
+         <p class="text-justify">Durante toda a batalha da gra-bretania de julho de 1940 a equipe de Bletchley Park decifrou os codigos da equipe aerea alemam e passou as informaçoes para os caças, entretando decifrar o codigo da marinha alema estva muito lento e os submarinos estavam atacando navios aliados privando a ilha de recursos como alimento e munição.</p><br />                 
 	</div>
 </div>
 
@@ -78,7 +78,7 @@
 	<div class="col-12 col-md-12"> 
 		<p class="text-justify">Em 21 de outubro Turing escreveu para o primeiro ministro Churchill, informando que precisava de mais recursos para conseguir decifrar o alto volume de informações.</p>
         <p class="text-justify">Bletchley Park precisava de toda ajuda possivel, em feverereiro a marinha alema introduziu uma nova maquina enigma, apenas em outubro que conseguiram novas informaçoes ao aboradarem um submarino e no dia 2 de dezembro a cabana 8 conseguiu decifrar as informaçoes.</p>
-        <p class="text-justify">Apos o ataque a peral harbor em 7 de dezembro a alema declarou guerra com os estados unidos e agora a gra bretania e estados unidos sao aliados, criptoanalistas da america foram enviados para visitar Bletchley Park levando com eles a maquina roxa usada para decifrar os codigos japoneses</p><br />                
+        <p class="text-justify">Apos o ataque a peral harbor em 7 de dezembro a Alemnha declarou guerra comtra os estados unidos e agora a gra bretania e estados unidos sao aliados, criptoanalistas da america foram enviados para visitar Bletchley Park levando com eles a maquina roxa usada para decifrar os codigos japoneses</p><br />                
 	</div>
 </div>
 
@@ -155,13 +155,13 @@
             </ul>
           </p>
 
-          <h5>Frase criptografada: <span style="color: red">BNITWQJZGG</span></h5>
+          <h5>Frase criptografada: <span style="color: red">BNITWQJZGG</span></h5><br /> 
 
-          <iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe>
+          <iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe><br /> <br />
 
-          <p>Coloque aqui a mensagem traduzida.</p>
+          <p class="font-weight-bold">Coloque aqui a mensagem Descriptografada</p>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
+            <input type="text" class="form-control" placeholder="Mensagem Descriptografada" aria-label="Mensagem Descriptografada" aria-describedby="button-addon2">
             <div class="input-group-append">
               <button class="btn btn-success" onclick="return checkPasswordChapter(10, this)" type="button" id="button-addon2">Verificar</button>
               <button class="btn btn-info" onclick="return skipOnePuzzle(10, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
