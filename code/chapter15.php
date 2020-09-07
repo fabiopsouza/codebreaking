@@ -2,7 +2,7 @@
 <div class="row">
     <div class="col-12">
         <h2 style="color: #ce3c41">Capítulo 15 - Computadores assumem controle</h2>
-        <p class="text-justify">O que é possível afirmar é que após a bomba de Turing, criptógrafos na busca por cifras cada vez mais complexa desenvolveram máquinas com Colossus, que tinha 1500 válvulas eletrônicas e era programável, fato esse que faz da Colossus o primeiro computador programável. Existe relatos que máquina Colossus não possa ser considerada como o primeiro computador da era moderno em virtude da destruição de  documentos após a II Guerra Mundial, durante décadas considerou-se que a máquina ENIAC (Electronic Numerical Integrador And Calculator ) fosse precursora do computador moderno.</p>
+        <p class="text-justify">O que é possível afirmar é que após a bomba de Turing, criptógrafos na busca por cifras cada vez mais complexa desenvolveram máquinas com Colossus, que tinha 1500 válvulas eletrônicas e era programável, fato esse que faz da Colossus o primeiro computador programável. Existe relatos que máquina Colossus não possa ser considerada como o primeiro computador da era moderno em virtude da destruição de documentos após a II Guerra Mundial, durante décadas considerou-se que a máquina ENIAC (Electronic Numerical Integrador And Calculator ) fosse precursora do computador moderno.</p>
     </div>
 </div>
 <div class="row">
@@ -27,7 +27,7 @@
 </div>
 <div class="row">
     <div class="col-12">
-        <p class="text-justify">A utilização de computadores ao invés das máquinas mecânicas tem três principais diferenças, um computador pode ser programado para simular centenas de misturadores, com vários sentidos e ordem, é muito mais veloz e o computador mistura números ao invés de letras do alfabeto. O computador trabalha com números binários, ou seja, um sistema de numeração posicional de base 2, ao invés da conhecida base decimal, onde os números são representados por sequências formadas por apenas dois dígitos: 0 ou 1, essas são chamadas de dígitos binários, bits (binary digits, em inglês). Por exemplo, a palavra AGENT, por exemplo o computador pimeiro a traduz em forma de binário como: <code>01000001 0100011 01000101 01001110 01010100</code></p>
+        <p class="text-justify">A utilização de computadores ao invés das máquinas mecânicas tem três principais diferenças, um computador pode ser programado para simular centenas de misturadores, com vários sentidos e ordem, é muito mais veloz e o computador mistura números ao invés de letras do alfabeto. O computador trabalha com números binários, ou seja, um sistema de numeração posicional de base 2, ao invés da conhecida base decimal, onde os números são representados por sequências formadas por apenas dois dígitos: 0 ou 1, essas são chamadas de dígitos binários, bits (binary digits, em inglês). Por exemplo, a palavra AGENT, por exemplo o computador primeiro a traduz em forma de binário como: <code>01000001 0100011 01000101 01001110 01010100</code></p>
         <p class="text-justify">Bit é a menor unidade de informação que pode ser armazenada ou transmitida, podendo assumir dois valores: 0 ou 1. O computador é projetado para armazenar instruções em múltiplos de bit. A ASCII, American Standard Code for Information Interchange, destina que cada letra do alfabeto e cada símbolo corresponde um número binário de 7 dígitos, dando ao todo um conjunto de 128 caracteres que podem ser usados na digitação. Por exemplo e conforme a tabela 8.</p>
         <p class="text-justify">Dentro desse universo modificado pelos computadores o processo de criptografia é a seguinte, as cifras eram feitas em pares:</p>
         <div class="form-group">
@@ -39,7 +39,7 @@
             <code>0000010 10001011 10001010 10001101 10101000</code>
         </div>
         <p class="text-justify">Ou seja, os pares eram trocados assim para descriptografar era só destrocar os pares.</p>
-        <p class="text-justify">Em 1970, Horst Feistel desenvolveu um dos algoritmos de cifragem mais usados, conhecido como Lucifer, no qual o emissor e o receptor só precisavam escolher um número para decidir qual chave seria usada. Uma versão de 56 bits da cifra Lucifer foi oficialmente adotada e batizada como Padrão de Cifragem de dados (DES–Data Encryption Standard). A DES garantia a segurança das mensagens, encorajando as empresas a utilizarem a criptografia, havia apenas um problema, a distribuição de chaves.</p>
+        <p class="text-justify">Em 1970, Horst Feistel desenvolveu um dos algoritmos de cifrarem mais usados, conhecido como Lucifer, no qual o emissor e o receptor só precisavam escolher um número para decidir qual chave seria usada. Uma versão de 56 bits da cifra Lucifer foi oficialmente adotada e batizada como Padrão de Cifragem de dados (DES–Data Encryption Standard). A DES garantia a segurança das mensagens, encorajando as empresas a utilizarem a criptografia, havia apenas um problema, a distribuição de chaves.</p>
         <p class="text-justify">Inicialmente o processo não demostrava confiabilidade, a distribuição de chaves através de meios eletrônicos trouxe muita preocupação a (DES–Data Encryption Standard), a agência tinha receio que no meio do processo a chave poderia ser interpretada, portanto, o sistema era tão forte quanto a codificação de chaves.</p>
         <p class="text-justify">Com aparecimento da internet as mensagens seriam enviadas por uma linha telefônica por isso a necessidade de criar uma criptografia forte.</p>
         <p class="text-justify">Mesmo que a mensagem não seja um segredo de Estado, a segurança dos dados é um problema de vital importância.</p>
@@ -105,4 +105,4 @@
 			</div>
 		</div>
 	</div>
-</div> 
+</div>

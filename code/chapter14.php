@@ -7,7 +7,7 @@
 
 <div class="row">
     <div class="col-12 col-md-12">
-        <p class="text-justify">Decifrar a Enigma garantiu a vitória da grã-bretanha no atlântico, mas para vencer a guerra é preciso decifrar o codigo mais seguro produzido pelas sofstificadas maquinas Lorenz do Alto-comando Alemão.</p>
+        <p class="text-justify">Decifrar a Enigma garantiu a vitória da Grã-Bretanha no atlântico, mas para vencer a guerra é preciso decifrar o código mais seguro produzido pelas sofisticadas maquinas Lorenz do Alto-comando Alemão.</p>
 
         <h5 style="color: #39CCCC">Redes de espionagem</h5>
         <p class="text-justify">A Grã-Bretanha e os EUA eram aliados da União Soviética durante a guerra. A espionagem permaneceu durante toda a Segunda Guerra Mundial. Os EUA e o Reino Unido continuaram aliados, principalmente em questões de informações. Com o início da Guerra Fria, a URSS se tornou um inimigo palpável, com extensas redes de espiões do Ocidente. Os agentes empregavam códigos de uso único e e ficavam guardadas em cofres nas embaixadas. Os livros usados pelos agentes eram minúsculos e fáceis de esconder As mensagens também eram transmitidas em pulsos velocíssimos, tornando-as difíceis de detectar, mesmo com o exame constante do espectro de rádio.</p>
@@ -44,7 +44,7 @@
 <div class="row mt-3">
     <div class="col-12 col-md-12">
         <h5 style="color: #39CCCC">Neve</h5>
-        <p class="text-justify">A cifra confundiu os decodificadores do FBI era complexa. O texto original era cortado ao meio, e a segunda metade era posta antes da primeira. As letras eram substituídas por números inseridos numa tabela de cédulas vazias, usando  as sete primeiras letras da palavra snegoped – “neve”. O texto era escrito horizontalmente num bloco, e as colunas transpostas. Cada linha começava uma coluna mais à direita, até resultar numa linha vazia. A linha seguinte começava sob a chave número 2.</p>
+        <p class="text-justify">A cifra confundiu os decodificadores do FBI era complexa. O texto original era cortado ao meio, e a segunda metade era posta antes da primeira. As letras eram substituídas por números inseridos numa tabela de cédulas vazias, usando as sete primeiras letras da palavra snegoped – “neve”. O texto era escrito horizontalmente num bloco, e as colunas transpostas. Cada linha começava uma coluna mais à direita, até resultar numa linha vazia. A linha seguinte começava sob a chave número 2.</p>
 
         <h5 style="color: #39CCCC">Tabelas com Células Vazias</h5>
         <p class="text-justify">Criada no século XVI, a técnica foi empregada pelos comunistas durante a Guerra Civil Espanhola. O método utilizava uma tabela e uma palavra-chave. O resto das letras do alfabeto eram colocadas nas duas linhas abaixo:</p>
