@@ -245,39 +245,39 @@
 				<div class="col-12">
 					<h5>Enigma</h5>
 				</div>
+				
 				<div class="col-12 col-md-12">
 					<p>
-            Você recebu uma mensagem criptografada e precisa decodificá-la.<br>
-            Utilize a máquina enigma virtual e configure seguindo as intruções abaixo.<br>
-          </p>
-		      <p>
-            <b>Rotores:</b>
-            <ul> 
-              <li>Setting 4</li>
-              <li>Setting 5</li>
-              <li>Setting 2</li>
-            </ul>
-			      <b>Plug:</b>
-            <ul> 
-              <li>Letra F e G</li>              
-			        <li>Letra Z e B</li>              
-            </ul>
-		      	<b>Mensagem a ser descriptografada:</b>
-            <ul> 
-              <li>IUHFUCICIKXNKJ</li>
-            </ul>
-          </p>
+						Você recebu uma mensagem criptografada e precisa decodificá-la.<br>
+						Utilize a máquina enigma virtual e configure seguindo as intruções abaixo.<br>
+					</p>
+					<p>
+						<b>Rotores:</b>
+						<ul> 
+							<li>Setting 4</li>
+							<li>Setting 5</li>
+							<li>Setting 2</li>
+						</ul>
+						<b>Plug:</b>
+						<ul> 
+							<li>Letra F e G</li>              
+							<li>Letra Z e B</li>              
+						</ul>
+					</p>
+			
+					<h5>Mensagem a ser descriptografada: <span style="color: #39CCCC">IUHFUCICIKX KJ</span></h5><br /> 
 
-          <iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe>
+					<iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe><br /><br /><br />
 
-          <p>Coloque aqui a mensagem traduzida.</p>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Mensagem Traduzida" aria-label="Mensagem Traduzida" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-success" onclick="return checkPasswordChapter(9, this)" type="button" id="button-addon2">Verificar</button>
-              <button class="btn btn-info" onclick="return skipOnePuzzle(9, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-            </div>
-          </div>
+					<p class="font-weight-bold">Coloque aqui a mensagem descriptografada.</p>
+					
+					<div class="input-group mb-3" height="500">
+						<input type="text" class="form-control" placeholder="Mensagem Descriptografada" aria-label="Mensagem Descriptografada" aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class="btn btn-success" onclick="return checkPasswordChapter(9, this)" type="button" id="button-addon2">Verificar</button>
+							<button class="btn btn-info" onclick="return skipOnePuzzle(9, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

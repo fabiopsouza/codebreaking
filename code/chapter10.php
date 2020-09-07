@@ -64,7 +64,7 @@
 				<div class="col-12 col-md-12">
 					<p class="text-justify"><strong>Decifre a mensagem</strong></p>
 					<p class="text-justify">Palavra chave: <strong>hinumve</strong></p>
-					<p class="text-justify">Mensagen Transmitida: <strong>laxezme</strong></p>
+					<p class="text-justify">Mensagem Transmitida: <strong>laxezme</strong></p>
 					<p class="text-justify">Usando as tabelas abaixo encontre a mensagem original:</p>
 					
 					<img src="view/static/images/Quadro_1.png" alt="Tabela 1" class="img-thumbnail rounded"><br />
