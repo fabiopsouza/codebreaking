@@ -170,20 +170,43 @@
 
 <!-- Puzzle -->
 <div class="row">
-	<div class="col-12 col-lg-6">
+	<div class="col-12">
 		<div class="card">
 			<div class="card-body">
-				<div class="col-12">  
+				<div class="col-12">
 					<h5>Enigma</h5>
 				</div>
-				<div class="col-12">
-					<div class="input-group mb-3" style="max-width: 500px">
-						<input type="text" class="form-control" placeholder="Mensagem Original" aria-label="Recipient's username" aria-describedby="button-addon2">
+				
+				<div class="col-12 col-md-12">
+					<p>
+						Agora, você faz parte do exército alemão, e precisa enviar uma mensagem para o outro pelotão alemão. <br>
+						Utilize a máquina enigma virtual e configure seguindo as intruções abaixo.<br>
+					</p>
+					<p>
+						<b>Rotores:</b>
+						<ul> 
+							<li>Setting 1</li>
+							<li>Setting 3</li>
+							<li>Setting 5</li>
+						</ul>
+						<b>Plug:</b>
+						<ul> 
+							<li>Letra D e I</li>              
+						</ul>					
+					</p>
+					
+					<h5>Mensagem a ser criptografada: <span style="color: #8cc43d">RECUAR TROPAS</span></h5><br /> 
+
+					<iframe src="http://fci.inf.br/enigma" width="100%" height="600"></iframe><br /><br /><br />
+
+					<p class="font-weight-bold">Coloque aqui a mensagem criptografada</p>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="Mensagem Criptografada" aria-label="Mensagem Criptografada" aria-describedby="button-addon2">
 						<div class="input-group-append">
 							<button class="btn btn-success" onclick="return checkPasswordChapter(8, this)" type="button" id="button-addon2">Verificar</button>
-              <button class="btn btn-info" onclick="return skipOnePuzzle(8, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
-            </div>
-					</div>				
+							<button class="btn btn-info" onclick="return skipOnePuzzle(8, this)" type="button" id="button-addon3" title="Pular desafio"> > </button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
