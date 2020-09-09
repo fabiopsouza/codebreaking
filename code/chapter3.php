@@ -11,7 +11,7 @@
 
         <h5 style="color: #ce3c41">Primeiros Espiões</h5>
 
-        <p class="text-justify">Neste meio tempo, os Árabes davam passos largos quanto aos estudos da criptoanálise. Já os europeus ainda usavam cifras simples de substituição monoalfabética. No século XVI, surgiu na Europa, o primeiro grande decodificador decifrado pelo secretário de cifras do Conselho dos Dez, Giovanni Soro. Soro ficou famoso pela decifração para o Conselho e sua fama se espalhou por toda a Itália. Ele foi contratado pelo papa para destrinchar códigos que seu analista não conseguia decifrar. Certa vez, uma mensagem papal chegou até os florentinos e o papa Clemente VII encaminhou uma cópia a Soro que afirmou não conseguir decifrar, pois Soro não gostava da ideia de que o Vaticano inventasse códigos mais complexos e seguros que os seus. Philibert Babou (1484-1557), Francês, decifrador de Francisco I, trabalhava arduamente ilustrando cifras, pois a França também gostaria de espionar as atividades secretas dos rivais.</p>
+        <p class="text-justify">Neste meio tempo, os Árabes davam passos largos quanto aos estudos da criptoanálise. Já os europeus ainda usavam cifras simples de substituição monoalfabética. No século XVI, surgiu na Europa, o primeiro grande decodificador. Soro ficou famoso pela decifração para o Conselho e sua fama se espalhou por toda a Itália. Ele foi contratado pelo papa para destrinchar códigos que seu analista não conseguia decifrar. Certa vez, uma mensagem papal chegou até os florentinos e o papa Clemente VII encaminhou uma cópia a Soro que afirmou não conseguir decifrar, pois Soro não gostava da ideia de que o Vaticano inventasse códigos mais complexos e seguros que os seus. Philibert Babou (1484-1557), Francês, decifrador de Francisco I, trabalhava arduamente ilustrando cifras, pois a França também gostaria de espionar as atividades secretas dos rivais.</p>
     </div>
     <div class="col-12 col-md-4">
        <div style="max-width: 450px" class="mx-auto d-block">
@@ -28,7 +28,7 @@
 
 <div class="row">
     <div class="col-12 col-md-8">
-        <p class="text-justify">Na Inglaterra, a decifração ocasionou a queda da rainha Maria da Escócia. Maria se refugiou na Inglaterra, após fugir de sua terra natal em 1568, mas foi presa pela rainha Elizabeth I. Em 1586, Anthony Babington começou a conspirar para libertar Maria e assassinar Elizabeth. Começaram a saquear as cartas de Maria na tampa oca de um barril de cerveja, onde as cartas chegavam em códigos e eram representados em 23 símbolos do alfabeto, exceto “I”, “v” e “w”. Entretanto, havia quatro símbolos nulos que não representavam absolutamente nada, e serviam apenas para confundir quem tentasse decifrá-la. Gilberto Gifford, conspirador responsável por entregar as cartas à Sir Francis Walsingham, principal secretário e espião-mor da rainha Elizabeth. Walsingham aprendera o trabalho com o criptoanalista Philip Van Marnix, secretário de cifras de Guilherme Orange. Em 1577, Marnix decifrou uma carta de Felipe da Espanha que programava plano para invadir a Inglaterra.</p>
+        <p class="text-justify">Na Inglaterra, a decifração ocasionou a queda da rainha Maria da Escócia. Maria se refugiou na Inglaterra, após fugir de sua terra natal em 1568, mas foi presa pela rainha Elizabeth I. Em 1586, Anthony Babington começou a conspirar para libertar Maria e assassinar Elizabeth. Começaram a saquear as cartas de Maria na tampa oca de um barril de cerveja, onde as cartas chegavam em códigos e eram representados em 23 símbolos do alfabeto, exceto “I”, “v” e “w”. Entretanto, havia quatro símbolos nulos que não representavam absolutamente nada, e serviam apenas para confundir quem tentasse decifrá-la. Gilberto Gifford, conspirador responsável por entregar as cartas à Sir Francis Walsingham, principal secretário e espião-mor da rainha Elizabeth. Walsingham aprendera o trabalho com o criptoanalista Philip Van Marnix, secretário de cifras de Guilherme Orange. Em 1577, Marnix decifrou uma carta de Felipe da Espanha que planejava invadir a Inglaterra.</p>
     </div>
      <div class="col-12 col-md-4">
        <div style="max-width: 450px" class="mx-auto d-block">
@@ -69,21 +69,21 @@
 <div class="row mt-3">
     <div class="col-12">
         <h5 style="color: #ce3c41">La Chiffre Indéchiffrable</h5>
-        <p class="text-justify">A ideia da substituição polialfabética, ou seja, mais de um alfabeto para serem decodificados foi desenvolvido lentamente em um sistema atribuído ao diplomata francês Blaise de Vigenêre. Foram utilizados 26 alfabetos cifrados e o sistema fora chamado de “le chiffre indéchiffrable”, ou “a cifra indescritível”.</p>
+        <p class="text-justify">A ideia da substituição polialfabética, ou seja, mais de um alfabeto para serem decodificados foi desenvolvido lentamente em um sistema atribuído ao diplomata francês Blaise de Vigenêre. Foram utilizados 26 alfabetos cifrados e o sistema fora chamado de “le chiffre indéchiffrable”, ou “a cifra indecífravel”.</p>
 
-        <h5 style="color: #ce3c41">Quadrado de Vegenère</h5>
-        <p class="text-justify">A cifra de Vegenère é um método de ciptografia que utiliza uma série de diferentes cifras baseadas em letras de uma senha. Trata-se de uma versão mais simplificada de uma mais geral da cifra de substituição polialfabética. Para codificar uma mensagem com o quadrado Vegenère, é preciso de uma palavra-chave.</p>
-        <p class="text-justify">A cifra de Vegenère não pode ser desvendada com a análise de frequência, dado como um fator positivo. A palavra-chave pode ser qualquer palavra, expressão, ou uma combinação aleatória de letras, destacando uma dificuldade aos decifradores.</p>
+        <h5 style="color: #ce3c41">Quadrado de Vigenère</h5>
+        <p class="text-justify">A cifra de Vigenère é um método de ciptografia que utiliza uma série de diferentes cifras baseadas em letras de uma senha. Trata-se de uma versão mais simplificada de uma mais geral da cifra de substituição polialfabética. Para codificar uma mensagem com o quadrado Vigenère, é preciso de uma palavra-chave.</p>
+        <p class="text-justify">A cifra de Vigenère não pode ser desvendada com a análise de frequência, dado como um fator positivo. A palavra-chave pode ser qualquer palavra, expressão, ou uma combinação aleatória de letras, destacando uma dificuldade aos decifradores.</p>
 
         <h5 style="color: #ce3c41">Substituição Homofônica</h5>
-        <p class="text-justify">A cifra de Vegenère demorou a ser utilizada, porque para isto, demandava tempo e esforço, e para a época, rapidez era essencial. Embora as cifras de substituição monoalfabética fossem mais simples de serem decifradas, ainda eram mais utilizadas. A esperança era que, os códigos fossem encontrados após que a ação militar fosse executada, sendo inútil o descobrimento.</p>
+        <p class="text-justify">A cifra de Vigenère demorou a ser utilizada, porque para isto, demandava tempo e esforço, e para a época, rapidez era essencial. Embora as cifras de substituição monoalfabética fossem mais simples de serem decifradas, ainda eram mais utilizadas. A esperança era que, os códigos fossem encontrados depois que a ação militar fosse executada, sendo inútil o descobrimento.</p>
         <p class="text-justify">Usava-se a cifra de substituição homofônica para as correspondências mais seguras. Numa substituição homófona cada letra do alfabeto pode ser correspondida por mais do que um símbolo.</p>
 
         <h5 style="color: #ce3c41">A Grande Cifra de Luís XIV</h5>
         <p class="text-justify">Antoine Rossignol foi considerado como o decifrador mais habilidoso da Europa pelo cortesão Luís XIV. Rossignol decifrou uma carta codificada que revelava que os cidadãos famintos da cidade esperavam ser libertados por uma frota de ingleses. Rossignol trabalhou para Luís XIII, sucessor de Luís XIV e nenhuma cifra lhe passava despercebido e com isso, foi tendo mais intimidade com o rei que o fez um homem importante.</p>
 
         <h5 style="color: #ce3c41">Gabinetes Negros</h5>
-        <p class="text-justify">Durante o século XVIII, criaram-se gabinetes negros em diversas capitais europeias. O mais famoso era o Geheime kabinets-Kanzlei, em Viena. Os decodificadores que liam os despachos cifrados de diplomatas estrangeiros foram designados para o Cabinet Noir, ou propriamente, Gabinete Negro. As cartas que iam para as embaixadas, chegavam ao gabinete às sete da manhã; eram abertas, copiadas, fechadas e devolvidas ao correio para a entrega. Os despachos passavam pela Áustria chegavam às dez da manhã e as cartas enviadas pelas embaixadas, às quatro da tarde. Aproximadamente cem cartas eram copiadas e entregues aos decifradores. O sucesso dos gabinetes negros obrigaram os secretários a usar a cifra mais segura de Vegenère.</p>
+        <p class="text-justify">Durante o século XVIII, criaram-se gabinetes negros em diversas capitais europeias. O mais famoso era o Geheime kabinets-Kanzlei, em Viena. Os decodificadores que liam os despachos cifrados de diplomatas estrangeiros foram designados para o Cabinet Noir, ou propriamente, Gabinete Negro. As cartas que iam para as embaixadas, chegavam ao gabinete às sete da manhã; eram abertas, copiadas, fechadas e devolvidas ao correio para a entrega. Os despachos passavam pela Áustria chegavam às dez da manhã e as cartas enviadas pelas embaixadas, às quatro da tarde. Aproximadamente cem cartas eram copiadas e entregues aos decifradores. O sucesso dos gabinetes negros obrigaram os secretários a usar a cifra mais segura de Vigenère.</p>
     </div>
 </div>
 
@@ -95,7 +95,7 @@
 
                 <h5>Enigma</h5>
 
-                <p>Decifre o quadro de Vegenère</p>
+                <p>Decifre o quadro de Vigenère</p>
 
                 <p>Utilize o quadro abaixo para decodificar o texto cifrado</p>
                 <p>Através da CHAVE e o Mensagem Cifrada, observe o quadro para decodificar o texto</p>

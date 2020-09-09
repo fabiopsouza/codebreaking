@@ -4,7 +4,7 @@
   <div class="col-12">
     <h2 style="color: #39CCCC">Capítulo 8 - A Decodificação da Enigma</h2>
     <p class="text-justify">
-      Se sentindo ameaçada pelo governo comunista russo, que pregava a revolução mundial, a Polônia empregou um trio de matemáticos para encontrar falhas na Enigma.
+      Sentindo-se ameaçada pelo governo comunista russo, que pregava a revolução mundial, a Polônia empregou um trio de matemáticos para encontrar falhas na Enigma.
     </p>
   </div>
 </div>
@@ -89,7 +89,7 @@
   </div>
   <div class="col-12">
     <p class="text-justify">
-      Sem avanços para decifrar a Enigma, o francês Gustave Bertrand, chefe da Seção D do serviço informações, recebeu a carta de Hans-Thilo Schmidt da 
+      Sem avanços para decifrar a Enigma, o francês Gustave Bertrand, chefe da Seção D dos serviços de informações, recebeu a carta de Hans-Thilo Schmidt da 
       cidade de Praga, oferecendo a venda de importantes documentos alemães. Então enviou para o encontro na Bélgica, um agente codinome REX. 
       Constatou-se que os documentos eram genuínos, mesmo assim compraram o manual da máquina Enigma, que auxiliou os decifradores poloneses, 
       que não sabiam nada sobre o painel de conexão, que não existia na máquina comercial, e imediatamente construíram réplicas. Enquanto isso, 
@@ -128,7 +128,7 @@
   </div>
   <div class="col-12">
     <p class="text-justify">
-      Então Rejewski supôs que havia relação entre a primeira e a quarta letras da mensagem, entre a segunda e quinta e a terceira e a 
+      Então Rejewski supôs que havia relação entre a primeira e a quarta letra da mensagem, entre a segunda e quinta e a terceira e a 
       sexta, em que a codificação da mesma letra e a relação entre elas refletia a posição inicial dos rotores. 
     </p>
     <p class="text-justify">Para montar um conjunto completo das relações entre as letras, ele montou uma tabela a partir de mensagens interceptadas no mesmo dia, onde:</p>
@@ -142,10 +142,6 @@
       eram longos com vários elos, as vezes curtos com poucos elos. O número de elos e de encadeamentos dependiam da ordem dos rotores e da chave do dia. 
       Já os ajustes do painel de conexão, só trocava uma letra por outra e não mudava o tamanho do encadeamento. Assim, Rejewski reduziu o número de 
       possibilidades por um fator de 100.391.791.500, de 10.000.000.000.000.000 para 105.456, que era o número inicial de configurações dos rotores. 
-    </p>
-    <p class="text-justify">
-      Então Rejewski supôs que havia relação entre a primeira e a quarta letras da mensagem, entre a segunda e quinta e a terceira e a 
-      sexta, em que a codificação da mesma letra e a relação entre elas refletia a posição inicial dos rotores. 
     </p>
   </div>
 
@@ -219,7 +215,7 @@
       e se tivesse quantidade suficiente de dados, restaria uma única abertura correspondendo ao caso correto. Da posição da abertura, era possível 
       calcular a ordem dos rotores, os ajustes de seus anéis, comparar letras das chaves da cifra com as da máquina, bem como permutação S. O código da 
       mensagem era um indicador não cifrado de três letras: Grundstellung. A primeira letra sendo a posição do primeiro rotor, o criptoanalista escolhia 
-      as folhas com a letra para cada mensagem que tinha fêmeas no código. A 2ª e a 3º letra faziam os deslocamentos verticais e horizontais. As folhas 
+      as folhas com a letra para cada mensagem que tinha fêmeas no código. A 2ª e a 3ª letra faziam os deslocamentos verticais e horizontais. As folhas 
       eram postas na mesa de luz com deslocamentos apropriados. 
     </p>
     <p class="text-justify">
