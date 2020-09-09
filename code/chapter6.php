@@ -30,7 +30,7 @@
     </div>
 
 	<div class="col-12 col-md-12">	
-		<p class="text-justify">Jefferson não era adepto de máquinas de codificar, pois preferia utilizar uma nomenclatura (uma lista de nomes que podem ser substituídas por outros) inventada por Robert Livingston, secretário de Assuntos Exteriores dos EUA. Jefferson recomendava um sistema inventado por Robert Patterson, professor de Matemática da Universidade da Pensilvânia. O sistema era formado por uma coluna simples com letras nulas no alto das colunas, contando com mais letras nulas para preencher as linhas. Patterson julgava ser impossível decifrar o código, mesmo que fosse um conhecedor do sistema gera</p>
+		<p class="text-justify">Jefferson não era adepto de máquinas de codificar, pois preferia utilizar uma nomenclatura (uma lista de nomes que podem ser substituídas por outros) inventada por Robert Livingston, secretário de Assuntos Exteriores dos EUA. Jefferson recomendava um sistema inventado por Robert Patterson, professor de Matemática da Universidade da Pensilvânia. O sistema era formado por uma coluna simples com letras nulas no alto das colunas, contando com mais letras nulas para preencher as linhas. Patterson julgava ser impossível decifrar o código, mesmo que fosse um conhecedor do sistema geral.</p>
 	</div>
 </div>
 
@@ -108,7 +108,7 @@
     </div>
 
 	<div class="col-12 col-md-12">	
-		<p class="text-justify">Em 1867 Wheatstone apresentou seu “Criptógrafo” na Exposição Universal de Paris. Semelhante a maquina de Wadsworth, com 26 letras no anel interno e 26 letras mais um espaço (totalizando 27 elementos) no anel externo, conhecido como “despacho”. Dois ponteiros como os de relógio eram ligados por engrenagens na proporção de 26:27. O ponteiro mais longo indicava as letras do anel externo, já o pequeno escolhia letras do anel interno. </p>
+		<p class="text-justify">Em 1867 Wheatstone apresentou seu “Criptógrafo” na Exposição Universal de Paris. Semelhante a máquina de Wadsworth, com 26 letras no anel interno e 26 letras mais um espaço (totalizando 27 elementos) no anel externo, conhecido como “despacho”. Dois ponteiros como os de relógio eram ligados por engrenagens na proporção de 26:27. O ponteiro mais longo indicava as letras do anel externo, já o pequeno escolhia letras do anel interno. </p>
 	</div>
 	<div class="col-12 col-lg-6">
 		<img src="view/static/images/charles-wheastone.jpg"  alt="Charles Wheastone" class="img-fluid img-thumbnail">	

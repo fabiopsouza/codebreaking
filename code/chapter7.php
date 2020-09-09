@@ -8,8 +8,7 @@
       máquina de codificação que usava rodas eletrificadas, alegando que sua máquina
       evitaria a repetição de uma sequência de letras quando a mesma letra for pressionada
       milhões de vezes, e ainda, que a solução de um telegrama também seria impossível se a
-      máquina cair em mãos não autorizadas, pois ela exige um sistema de chaves pré-
-      combinado.
+      máquina cair em mãos não autorizadas, pois ela exige um sistema de chaves pré-combinado.   
     </p>
     <div class="text-center">
       <img src="view/static/images/maquina_enigma.jpg"  alt="Máquina Enigma" class="img-fluid img-thumbnail"><br>
@@ -87,7 +86,7 @@
 <div class="row">
   <div class="col-12">
     <p class="text-justify">
-      Posteriormente os rotores se tornaram destacáveis, para que a ordem pudesse ser trocada. Um “refletor” substituía o 
+      Posteriormente, os rotores se tornaram descartáveis para que a ordem pudesse ser trocada. Um “refletor” substituía o 
       quarto rotor, que não se movia e tinha contatos só de um lado, ligados em pares, levando corrente de volta para os 
       três rotores móveis por um caminho diferente. Isso possibilitou cifrar e decifrar sem mudar a configuração, por outro lado, 
       tornava uma letra original em outra, e essa outra na original, fazendo com que nenhuma letra pudesse ser cifrada como ela mesmo.
@@ -101,7 +100,7 @@
   </div>
   <div class="col-12">
     <p class="text-justify">
-      A máquina Enigma tinha uma boa publicidade, mas não tinha boas vendas. Em 1919, o ex Primeiro Lorde do Mar John Fisher, 
+      A máquina Enigma tinha uma boa publicidade, mas não tinha boas vendas. Em 1919, o ex-Primeiro Lorde do Mar John Fisher, 
       mencionou que a “elucidação” das cifras do inimigo foi uma das maiores glórias do Almirantado.
     </p>
     <p class="text-justify">
@@ -154,12 +153,12 @@
       Com a opção de remoção para substituição dos 3 rotores, os alemães aumentavam 6 vezes a probabilidade (105.456) 
       de a mensagem ser decifrada, só o painel de conexão que trocava os pares de seis das 26 letras, acrescentava mais 
       100.391.791.500 de possibilidades. 
-      Totalizando 10.000.000.000.000.000 possíveis permutações dos ajustes dos rotores, bem como do painel de conexão, 
+      Totalizando 10.000.000.000.000.000 de possíveis permutações dos ajustes dos rotores, bem como do painel de conexão, 
       o que levaria mais tempo do que a idade do universo para decifrá-lo.
     </p>
     <p class="text-justify">
       Gerando um nível maior de segurança nas comunicações, as forças armadas compraram mais de 30 mil máquinas Enigma, 
-      o que mais tarde acredit ter sido um papel importantíssimo em sua vitória na Segunda Guerra Mundial.
+      o que mais tarde acredita-se ter tido um papel importantíssimo em sua vitória na Segunda Guerra Mundial.
     </p>
   </div>
   <div class="col-12 col-sm-4 text-center">
