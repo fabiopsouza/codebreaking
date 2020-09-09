@@ -121,7 +121,7 @@
 				
 				<div class="col-12 col-md-12">
 					<p class="text-justify"><strong>Decifre a mensagem</strong></p>
-					<p class="text-justify">Palavra chave: <strong>ticogyexekomiluaqa</strong></p>
+					<p class="text-justify">Palavra-chave: <strong>ticogyexekomiluaqa</strong></p>
 					<p class="text-justify">Mensagen Transmitida: <strong>mufinjaqifuzoniute</strong></p>
 					<p class="text-justify">Usando as tabelas abaixo encontre a mensagem original:</p>
 					
