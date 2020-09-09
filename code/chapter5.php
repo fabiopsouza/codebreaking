@@ -45,7 +45,7 @@
 	</div>
 	
 	<div class="col-12">
-		<p class="text-justify">A equipe de Ewing estavase expandindo e em novembro de 1914 havia se mudado para a Sala 40 do Prédio Velho do Almirantado, onde ao lado havia uma sala de descanso onde decifradores com excesso de trabalho podiam descansar. Então, foi oficialmente designada Seção 25 da Divisão de Informações ou ID25, mas o nome Sala 40 permaneceu.</p>	
+		<p class="text-justify">A equipe de Ewing estava se expandindo e em novembro de 1914 havia se mudado para a Sala 40 do Prédio Velho do Almirantado, onde ao lado havia uma sala de descanso onde decifradores com excesso de trabalho podiam descansar. Então, foi oficialmente designada Seção 25 da Divisão de Informações ou ID25, mas o nome Sala 40 permaneceu.</p>	
 		<p class="text-justify">Em dezembro de 1914, os decifradores da Sala 40, descobriram um ataque que seria feito pelos alemães, eles prepararam uma defesa com o objetivo de encotrar a flotilha alemã e engajá-la em seu retorno, o alto-comando aceitou o risco de mortes de civis, para não permitir que os alemães soubessem que tinham decifrado o código.</p>
 		<p class="text-justify">Em janeiro de 1915 a marinha britânica teve nova oportunidade, dessa vez conseguiu interceptar os atacantes e afundar um cruzador, além de avariar outros 2. A reputação da Sala 40 estava assegurada. </p>
 		<p class="text-justify">Após esse evento, em fevereiro do mesmo ano, os alemães mudaram o código, mas agora os decifradores conheciam as palavras codificadas e a nova cifra foi resolvida. </p>
@@ -88,7 +88,7 @@
 		<p class="text-justify">Considerado com um dos eventos fundamentais da Primeira Guerra Mundial, a decodificação do Telegrama de Zimmermann, ocorreu em janeiro de 1917.</p>
 		<p class="text-justify">Os alemães planejavam uma retomada na guerra que poderia levar os Estados Unidos de volta a guerra ao lado dos aliados e a Alemanha propunha uma aliança ao México, oferecendo um quantia financeira para ajudá-lo a reconquistar alguns territórios perdidos, dessa forma os soldados americanos não seriam enviados a Europa.</p>
 		<p class="text-justify">As cópias dessa mensagem logo foram parar na Sala 40 e foi decifrada completamente, mas a questão era o que fazer com a mensagem? </p>
-		<p class="text-justify">Os britânicos não gostariam de revelar que eram capazes de decifrar as mensagens e nem que interceptavam mensagens com países neutros. Então o embaixador britânico no México através de suborno conseguiu uma cópia da mensagem, com uma criptografia simples que foi divulgada em jornais americanos. Em abril de 1971, os EstadosInidos declararam guerra à Alemanha.</p>                
+		<p class="text-justify">Os britânicos não gostariam de revelar que eram capazes de decifrar as mensagens e nem que interceptavam mensagens com países neutros. Então o embaixador britânico no México através de suborno conseguiu uma cópia da mensagem, com uma criptografia simples que foi divulgada em jornais americanos. Em abril de 1971, os Estados Unidos declararam guerra à Alemanha.</p>                
 	</div>	
 	<div class="col-12 col-md-8 col-lg-5">
 		<img src="view/static/images/image05-02.jpg"  alt="Western Union Telegram" class="img-fluid img-thumbnail">
@@ -114,7 +114,7 @@
 		<img src="view/static/images/cifra-de-campanha-alema2.png"  alt="Cifra de Campanha Alemã" class="img-fluid img-thumbnail">	
 	</div>
 	<div class="col-12 mt-3">
-		<p class="text-justify">ADFGVX foram as letras escolhidas pr serem as mais distintas do código Morse.</p>
+		<p class="text-justify">ADFGVX foram as letras escolhidas para serem as mais distintas do código Morse.</p>
 	</div>
 </div>
 
@@ -137,7 +137,7 @@
 	<div class="col-12">	
 		<p class="text-justify">Joseph Mauborgne, major do exército americano e chefe da pesquisa criptográfica, tornar novamente seguro usar a chiffre indéchiffrable se usasse uma palavra-chave do mesmo tamanho da mensagem  e fosse usada uma única vez por remetente e destinatário.</p>
 		<p class="text-justify">Se duas mensagens usassem o mesmo código, seria possível descobri-lo.</p>
-		<p class="text-justify">O modo de descobrir é supor que a primeira mensagem inteira é formada pela palavra “the”, então pe possível trabalhar de trás para frente e obter uma tentativa de revelar a série de letras aleatórias, onde alguns pequenos fragmentos de palavras poderão surgir, mostrando onde o texto-chave está correto.</p>
+		<p class="text-justify">O modo de descobrir é supor que a primeira mensagem inteira é formada pela palavra “the”, então era possível trabalhar de trás para frente e obter uma tentativa de revelar a série de letras aleatórias, onde alguns pequenos fragmentos de palavras poderão surgir, mostrando onde o texto-chave está correto.</p>
 		<p class="text-justify">Se o código de uso único for empregado uma única vez e destruído, possivelmente será indeficrável.</p>
     </div>   
 </div>   
